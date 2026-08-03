@@ -36,7 +36,7 @@ def load_raw(source: SourceData, engine: Engine, *, schema: str = "raw") -> int:
     total = 0
     with engine.begin() as conn:
         for table in frames:
-            conn.execute(text(f"TRUNCATE TABLE {schema}.{table} RESTART IDENTITY"))
+            conn.execute(text(f"TRUNCATE TABLE {schema}.{table} RESTART IDENTITY CASCADE"))
     for table, df in frames.items():
         # Drop helper columns that aren't in the schema.
         drop = [c for c in ("text",) if c in df.columns]
@@ -91,7 +91,7 @@ def _upsert_mart(
     with engine.begin() as conn:
         # For simplicity in this demo, we truncate the table before load.
         # In a real pipeline, we'd use a temp staging table or ON CONFLICT.
-        conn.execute(text(f"TRUNCATE TABLE {schema}.{table}"))
+        conn.execute(text(f"TRUNCATE TABLE {schema}.{table} CASCADE"))
     df.to_sql(table, engine, schema=schema, if_exists="append", index=False,
               method="multi", chunksize=1000)
     return len(df)

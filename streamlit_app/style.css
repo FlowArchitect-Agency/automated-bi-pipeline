@@ -103,6 +103,12 @@ div[data-testid="metric-container"]:hover {
     border-right: 1px solid rgba(255,255,255,0.05);
 }
 
+[data-testid="stSidebar"] .stMarkdown, 
+[data-testid="stSidebar"] p, 
+[data-testid="stSidebar"] span {
+    color: #e0e0e0 !important;
+}
+
 /* Plotly chart transparent background wrapper */
 .stPlotlyChart {
     background: rgba(255, 255, 255, 0.02);
