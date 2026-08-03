@@ -16,9 +16,11 @@ def send_slack_notification(message: str) -> bool:
         return False
 
     logger.info(f"Sending Slack notification: {message}")
-    # In a real implementation, we would use requests to POST to the webhook URL
-    # import requests
-    # response = requests.post(webhook_url, json={"text": message})
-    # response.raise_for_status()
-    
-    return True
+    try:
+        import requests
+        response = requests.post(webhook_url, json={"text": message}, timeout=10)
+        response.raise_for_status()
+        return True
+    except Exception as e:
+        logger.error(f"Failed to send Slack notification: {e}")
+        return False

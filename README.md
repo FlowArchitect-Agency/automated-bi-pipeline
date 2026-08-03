@@ -1,18 +1,18 @@
-# Automated BI Pipeline with AI Enrichment
+# Automated BI Pipeline with AI Enrichment (Sample-Data Portfolio Demo)
 
-This is **Project 2** of the Remote AI Automation Strategy. It demonstrates an enterprise-grade ETL data pipeline with AI enrichment, orchestrated via Apache Airflow, stored in PostgreSQL, and visualized with a dynamic Streamlit dashboard.
+This is **Project 2** of the Remote AI Automation Strategy. It demonstrates a complete ETL data pipeline with AI enrichment, orchestrated via Apache Airflow, stored in PostgreSQL, and visualized with a dynamic Streamlit dashboard.
 
 ## 🎯 What This Product Does
 
 Companies suffer from disjointed data reporting. This system:
-1. **Extracts** data automatically from 5 disparate sources (E-commerce, CRM, Support Tickets, Web Analytics, Product Reviews).
+1. **Extracts** data automatically from 5 simulated disparate sources (E-commerce, CRM, Support Tickets, Web Analytics, Product Reviews) via local CSVs to mimic API endpoints without needing live credentials.
 2. **Transforms & Enriches** the data using Python (Pandas) and LLMs (Anthropic/OpenAI/Mock) to classify tickets, summarize reviews, detect anomalies, and enrich leads.
 3. **Loads** the clean, enriched data into a structured PostgreSQL data mart.
-4. **Delivers** actionable insights via a bilingual (English/French) Streamlit dashboard and automated PDF reports.
+4. **Delivers** actionable insights via a bilingual (English/French) Streamlit dashboard, automated PDF reports, and Slack alerts.
 
 ## 🏗️ Architecture & Technology Choices
 
-- **Orchestration**: Apache Airflow. Chosen for production-grade scheduling, monitoring, and retries.
+- **Orchestration**: Apache Airflow. Chosen for robust scheduling, monitoring, and retries.
 - **Backend/ETL**: Python 3.11 with `pandas`. Strong typing and declarative transforms.
 - **Database**: PostgreSQL 16. Two schemas: `raw` (landed data) and `mart` (enriched views).
 - **Frontend**: Streamlit. Fast to build, native Python, interactive data apps.
@@ -48,7 +48,7 @@ Companies suffer from disjointed data reporting. This system:
 ## ⚠️ Known Limitations & Tradeoffs
 
 - **Upsert Logic**: For demo simplicity, the mart tables are truncated and repopulated during each run. In a production system with TBs of data, this would use `INSERT ... ON CONFLICT` or an incremental merge strategy.
-- **Mock Webhooks**: The Slack webhook integration logs to the console rather than sending real network requests (unless a URL is provided in `.env`).
+- **Slack Webhooks**: The Slack webhook integration is fully functional via `requests`, but gracefully skips and logs to the console if a URL is not provided in `.env`.
 - **Data Scale**: The seed data is deliberately small to keep Docker builds and LLM costs negligible.
 
 ## 🔐 Security & Cost Notes

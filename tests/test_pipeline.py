@@ -35,3 +35,30 @@ def test_daily_revenue_transform():
     eu_july_1 = result[(result['order_date'] == pd.Timestamp('2026-07-01')) & (result['region'] == 'EU')]
     assert eu_july_1['net_revenue_eur'].iloc[0] == 150.0
     assert eu_july_1['units'].iloc[0] == 3
+
+import os
+from unittest.mock import patch
+
+def test_slack_webhook():
+    """Test the Slack webhook correctly handles missing URL and real requests."""
+    from pipeline.notify.slack_webhook import send_slack_notification
+    
+    # Missing webhook URL -> should gracefully skip and return False
+    with patch("pipeline.notify.slack_webhook.get_settings") as mock_settings:
+        mock_settings.return_value.slack_webhook_url.get_secret_value.return_value = None
+        assert not send_slack_notification("Test message")
+
+    # With webhook URL -> should call requests.post
+    with patch("pipeline.notify.slack_webhook.get_settings") as mock_settings:
+        mock_settings.return_value.slack_webhook_url.get_secret_value.return_value = "https://hooks.slack.com/services/test"
+        with patch("requests.post") as mock_post:
+            assert send_slack_notification("Test message")
+            mock_post.assert_called_once()
+
+def test_dag_validation():
+    """Test that the Airflow DAG parses without errors."""
+    from airflow.models import DagBag
+    dag_folder = os.path.join(os.path.dirname(os.path.dirname(__file__)), "airflow", "dags")
+    dag_bag = DagBag(dag_folder=dag_folder, include_examples=False)
+    assert not dag_bag.import_errors, f"DAG import errors: {dag_bag.import_errors}"
+    assert "bi_pipeline" in dag_bag.dags
