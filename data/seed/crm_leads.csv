@@ -1,0 +1,181 @@
+lead_id,company_name,industry,region,created_at,source,status,est_value_eur,notes
+LD-70001,Northwind GmbH,Retail,UK,2026-07-21T00,ads,qualified,35069.66,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70002,Northwind GmbH,Retail,UK,2026-08-01T00,event,won,4393.29,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70003,Bright BV,Manufacturing,US,2026-07-03T00,ads,contacted,40056.65,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70004,Cobalt SAS,Retail,US,2026-06-18T00,organic,won,33517.82,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70005,Acme SAS,Retail,US,2026-08-01T00,organic,qualified,6261.57,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70006,Vortex SAS,SaaS,UK,2026-07-17T00,event,qualified,50044.29,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70007,Vortex BV,Retail,FR,2026-06-04T00,organic,new,65768.54,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70008,Acme Inc,Manufacturing,EU,2026-06-21T00,referral,contacted,32313.4,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70009,Vertex Ltd,Fintech,EU,2026-06-30T00,event,qualified,68958.41,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70010,Acme BV,Manufacturing,UK,2026-07-26T00,event,contacted,28716.01,Spoke with VP Engineering. Budget confirmed for Q3. Currently using HubSpot.
+LD-70011,Acme GmbH,Education,FR,2026-06-19T00,event,won,70130.32,Spoke with VP Engineering. Budget confirmed for Q3. Currently using Salesforce.
+LD-70012,Bright BV,Fintech,UK,2026-07-10T00,event,new,41173.75,Échangé avec le/la VP Engineering. Budget confirmé pour T3. Utilise actuellement Monday.
+LD-70013,Acme SAS,Healthcare,UK,2026-06-22T00,ads,contacted,44923.64,Spoke with Head of Ops. Budget confirmed for Q3. Currently using Monday.
+LD-70014,Lumen SAS,Retail,UK,2026-06-20T00,referral,new,45731.09,"Rencontré via ads. Grande équipe, ~60 personnes. Intéressé par plan annuel."
+LD-70015,Vertex SAS,Retail,US,2026-07-16T00,ads,qualified,72596.53,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70016,Acme SAS,SaaS,UK,2026-06-23T00,event,contacted,58532.83,Échangé avec le/la Head of Ops. Budget confirmé pour T3. Utilise actuellement Notion.
+LD-70017,Vortex Inc,Fintech,FR,2026-07-18T00,organic,lost,62882.56,"Rencontré via event. Grande équipe, ~45 personnes. Intéressé par plan annuel."
+LD-70018,Northwind GmbH,Manufacturing,US,2026-06-09T00,event,contacted,64251.49,"Met at ads. Large team, ~15 people. Interested in annual plan."
+LD-70019,Cobalt BV,Manufacturing,FR,2026-07-26T00,ads,new,38820.51,Échangé avec le/la COO. Budget confirmé pour T3. Utilise actuellement Notion.
+LD-70020,Vertex SAS,SaaS,EU,2026-06-12T00,referral,lost,56816.87,Inbound from organic. Evaluating alternatives to Zapier. Wants demo next week.
+LD-70021,Vortex GmbH,Media,US,2026-07-11T00,referral,lost,38705.44,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70022,Acme GmbH,Manufacturing,FR,2026-07-01T00,ads,won,27034.2,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70023,Northwind GmbH,Media,US,2026-06-18T00,ads,qualified,18698.95,Inbound from referral. Evaluating alternatives to Zapier. Wants demo next week.
+LD-70024,Cobalt GmbH,Media,UK,2026-08-01T00,event,lost,10048.28,Spoke with Ops Manager. Budget confirmed for Q3. Currently using Asana.
+LD-70025,Northwind GmbH,Retail,UK,2026-07-05T00,referral,contacted,51650.67,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70026,Vortex GmbH,Retail,US,2026-06-19T00,organic,new,52273.19,Échangé avec le/la VP Engineering. Budget confirmé pour T3. Utilise actuellement HubSpot.
+LD-70027,Cobalt Ltd,Retail,UK,2026-06-03T00,event,new,46337.26,Entrant via organic. Évalue des alternatives à HubSpot. Démo la semaine prochaine.
+LD-70028,Northwind Ltd,E-commerce,US,2026-06-10T00,organic,contacted,38358.48,Échangé avec le/la CTO. Budget confirmé pour T3. Utilise actuellement Notion.
+LD-70029,Acme SAS,Manufacturing,UK,2026-07-30T00,referral,new,13208.82,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70030,Northwind BV,Healthcare,UK,2026-07-02T00,ads,new,34914.09,"Rencontré via ads. Grande équipe, ~45 personnes. Intéressé par plan annuel."
+LD-70031,Acme GmbH,E-commerce,UK,2026-07-26T00,event,lost,8765.13,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70032,Northwind GmbH,Healthcare,US,2026-07-27T00,organic,new,26013.0,Spoke with CTO. Budget confirmed for Q3. Currently using Salesforce.
+LD-70033,Vortex Ltd,Manufacturing,EU,2026-07-31T00,organic,qualified,51555.09,"Met at event. Large team, ~60 people. Interested in annual plan."
+LD-70034,Northwind BV,Manufacturing,FR,2026-06-10T00,event,contacted,61551.82,"Met at event. Large team, ~60 people. Interested in annual plan."
+LD-70035,Helix SAS,Healthcare,FR,2026-07-11T00,referral,lost,74613.8,Échangé avec le/la Ops Manager. Budget confirmé pour T3. Utilise actuellement Monday.
+LD-70036,Acme SAS,Manufacturing,US,2026-07-14T00,organic,contacted,2442.31,Entrant via organic. Évalue des alternatives à Salesforce. Démo la semaine prochaine.
+LD-70037,Northwind Inc,Retail,US,2026-06-21T00,event,won,22580.56,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70038,Vertex SAS,Fintech,FR,2026-07-21T00,event,contacted,15162.85,Spoke with COO. Budget confirmed for Q3. Currently using Notion.
+LD-70039,Cobalt Ltd,Healthcare,EU,2026-07-24T00,ads,new,42755.95,Spoke with VP Engineering. Budget confirmed for Q3. Currently using Zapier.
+LD-70040,Cobalt Ltd,E-commerce,EU,2026-07-12T00,ads,qualified,21241.14,Spoke with VP Engineering. Budget confirmed for Q3. Currently using Notion.
+LD-70041,Lumen BV,Media,EU,2026-07-21T00,referral,contacted,10778.83,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70042,Bright Inc,Media,UK,2026-07-02T00,referral,lost,50036.06,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70043,Lumen SAS,Education,FR,2026-06-09T00,event,new,15354.4,Spoke with VP Engineering. Budget confirmed for Q3. Currently using Zapier.
+LD-70044,Acme Inc,Retail,US,2026-06-10T00,ads,lost,51245.09,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70045,Bright Ltd,SaaS,US,2026-07-28T00,event,new,33170.27,Inbound from organic. Evaluating alternatives to Zapier. Wants demo next week.
+LD-70046,Helix Inc,Fintech,UK,2026-07-01T00,referral,qualified,19877.86,"Met at referral. Large team, ~60 people. Interested in annual plan."
+LD-70047,Northwind SAS,E-commerce,FR,2026-06-09T00,event,contacted,19107.71,Inbound from organic. Evaluating alternatives to Salesforce. Wants demo next week.
+LD-70048,Acme BV,Retail,FR,2026-07-16T00,event,new,25614.67,Inbound from organic. Evaluating alternatives to Asana. Wants demo next week.
+LD-70049,Cobalt BV,E-commerce,FR,2026-06-12T00,organic,contacted,23390.2,"Rencontré via referral. Grande équipe, ~500 personnes. Intéressé par plan annuel."
+LD-70050,Lumen Ltd,Media,EU,2026-07-23T00,organic,contacted,66679.08,Échangé avec le/la CTO. Budget confirmé pour T3. Utilise actuellement Salesforce.
+LD-70051,Northwind Inc,Healthcare,UK,2026-06-23T00,organic,lost,21391.19,"Rencontré via referral. Grande équipe, ~8 personnes. Intéressé par plan annuel."
+LD-70052,Vortex Inc,Media,US,2026-06-22T00,ads,new,43184.58,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70053,Acme Ltd,Education,US,2026-07-24T00,event,new,45084.33,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70054,Vortex Inc,Fintech,US,2026-07-15T00,ads,qualified,66271.29,Inbound from organic. Evaluating alternatives to Notion. Wants demo next week.
+LD-70055,Helix GmbH,Media,UK,2026-07-11T00,organic,new,22433.41,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70056,Northwind GmbH,Education,US,2026-07-19T00,referral,new,16023.47,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70057,Vortex Ltd,Education,US,2026-06-15T00,organic,lost,66428.03,Entrant via organic. Évalue des alternatives à Asana. Démo la semaine prochaine.
+LD-70058,Acme SAS,E-commerce,FR,2026-06-03T00,ads,contacted,55190.99,Inbound from ads. Evaluating alternatives to Notion. Wants demo next week.
+LD-70059,Northwind Inc,SaaS,EU,2026-07-16T00,event,contacted,53527.63,Inbound from event. Evaluating alternatives to Salesforce. Wants demo next week.
+LD-70060,Vortex BV,Healthcare,US,2026-06-07T00,ads,contacted,44159.72,Échangé avec le/la VP Engineering. Budget confirmé pour T3. Utilise actuellement HubSpot.
+LD-70061,Lumen Inc,Manufacturing,EU,2026-06-11T00,ads,new,21323.94,Entrant via ads. Évalue des alternatives à Notion. Démo la semaine prochaine.
+LD-70062,Vortex Inc,Education,EU,2026-06-04T00,event,lost,21387.97,Inbound from referral. Evaluating alternatives to Zapier. Wants demo next week.
+LD-70063,Bright BV,Healthcare,US,2026-07-05T00,organic,contacted,52296.72,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70064,Bright SAS,Manufacturing,FR,2026-06-20T00,referral,lost,8216.49,"Rencontré via organic. Grande équipe, ~1200 personnes. Intéressé par plan annuel."
+LD-70065,Acme GmbH,Fintech,FR,2026-07-22T00,event,won,57415.81,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70066,Helix SAS,Media,EU,2026-07-26T00,event,new,10684.26,"Met at organic. Large team, ~15 people. Interested in annual plan."
+LD-70067,Acme GmbH,Healthcare,US,2026-06-22T00,event,won,14060.39,Entrant via ads. Évalue des alternatives à Zapier. Démo la semaine prochaine.
+LD-70068,Bright SAS,Media,UK,2026-06-20T00,event,new,64105.66,Échangé avec le/la VP Engineering. Budget confirmé pour T3. Utilise actuellement Asana.
+LD-70069,Cobalt Inc,Media,UK,2026-07-22T00,organic,new,72901.77,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70070,Acme GmbH,Healthcare,UK,2026-06-07T00,referral,new,24913.98,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70071,Vortex BV,Fintech,UK,2026-07-01T00,ads,new,40373.42,"Rencontré via ads. Grande équipe, ~500 personnes. Intéressé par plan annuel."
+LD-70072,Cobalt Inc,Manufacturing,FR,2026-07-04T00,organic,lost,64928.19,Inbound from organic. Evaluating alternatives to Asana. Wants demo next week.
+LD-70073,Bright GmbH,SaaS,UK,2026-07-06T00,organic,qualified,34956.32,Spoke with COO. Budget confirmed for Q3. Currently using Monday.
+LD-70074,Northwind GmbH,Healthcare,UK,2026-07-28T00,ads,lost,15985.19,Entrant via referral. Évalue des alternatives à Monday. Démo la semaine prochaine.
+LD-70075,Lumen BV,Manufacturing,FR,2026-06-11T00,ads,won,43645.45,Entrant via ads. Évalue des alternatives à Monday. Démo la semaine prochaine.
+LD-70076,Vortex BV,Fintech,FR,2026-06-29T00,organic,contacted,9699.2,Spoke with CTO. Budget confirmed for Q3. Currently using HubSpot.
+LD-70077,Vertex Ltd,Fintech,EU,2026-06-22T00,referral,new,69340.58,Inbound from ads. Evaluating alternatives to Notion. Wants demo next week.
+LD-70078,Acme Inc,SaaS,UK,2026-07-17T00,ads,new,29336.99,Échangé avec le/la COO. Budget confirmé pour T3. Utilise actuellement Monday.
+LD-70079,Cobalt SAS,Healthcare,US,2026-07-23T00,ads,lost,6333.65,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70080,Lumen Ltd,E-commerce,UK,2026-06-10T00,ads,contacted,30594.48,Spoke with Head of Ops. Budget confirmed for Q3. Currently using Asana.
+LD-70081,Vortex Ltd,Fintech,UK,2026-07-23T00,organic,contacted,32903.59,Entrant via ads. Évalue des alternatives à Asana. Démo la semaine prochaine.
+LD-70082,Vortex Inc,SaaS,FR,2026-06-17T00,referral,won,13015.93,Spoke with Head of Ops. Budget confirmed for Q3. Currently using Salesforce.
+LD-70083,Vortex BV,Manufacturing,UK,2026-06-04T00,ads,new,45900.97,Entrant via organic. Évalue des alternatives à HubSpot. Démo la semaine prochaine.
+LD-70084,Helix BV,Media,FR,2026-06-09T00,referral,contacted,22902.97,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70085,Lumen Ltd,Fintech,US,2026-07-08T00,organic,contacted,42905.83,Inbound from ads. Evaluating alternatives to Notion. Wants demo next week.
+LD-70086,Acme Ltd,Media,FR,2026-06-10T00,referral,new,71610.97,Échangé avec le/la COO. Budget confirmé pour T3. Utilise actuellement Salesforce.
+LD-70087,Bright SAS,E-commerce,EU,2026-07-22T00,ads,qualified,47713.13,"Rencontré via ads. Grande équipe, ~15 personnes. Intéressé par plan annuel."
+LD-70088,Bright Inc,Manufacturing,FR,2026-06-24T00,organic,new,17911.87,"Rencontré via referral. Grande équipe, ~350 personnes. Intéressé par plan annuel."
+LD-70089,Bright SAS,Retail,US,2026-07-11T00,organic,qualified,52188.95,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70090,Vortex BV,Fintech,EU,2026-06-21T00,referral,contacted,62797.82,Échangé avec le/la VP Engineering. Budget confirmé pour T3. Utilise actuellement Zapier.
+LD-70091,Northwind Ltd,Media,EU,2026-07-06T00,event,lost,44293.62,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70092,Lumen Ltd,Healthcare,US,2026-06-03T00,referral,qualified,4920.91,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70093,Helix BV,Education,FR,2026-07-26T00,referral,new,41118.81,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70094,Bright Ltd,Manufacturing,EU,2026-06-15T00,ads,new,46977.98,"Rencontré via referral. Grande équipe, ~1200 personnes. Intéressé par plan annuel."
+LD-70095,Northwind BV,SaaS,UK,2026-07-31T00,event,contacted,29594.83,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70096,Cobalt SAS,Manufacturing,EU,2026-06-19T00,event,lost,64076.02,Échangé avec le/la COO. Budget confirmé pour T3. Utilise actuellement Monday.
+LD-70097,Vertex Ltd,SaaS,FR,2026-06-10T00,organic,qualified,18468.79,Échangé avec le/la Ops Manager. Budget confirmé pour T3. Utilise actuellement Salesforce.
+LD-70098,Lumen GmbH,Media,FR,2026-07-16T00,event,new,31003.37,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70099,Vortex Inc,Education,US,2026-06-28T00,organic,new,74309.19,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70100,Vertex Inc,SaaS,UK,2026-06-17T00,ads,qualified,21809.98,"Met at ads. Large team, ~350 people. Interested in annual plan."
+LD-70101,Cobalt Ltd,Manufacturing,EU,2026-07-24T00,referral,new,44864.49,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70102,Helix Ltd,Media,UK,2026-06-16T00,event,contacted,70896.57,Inbound from organic. Evaluating alternatives to Zapier. Wants demo next week.
+LD-70103,Helix Inc,E-commerce,EU,2026-06-15T00,organic,qualified,50591.8,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70104,Vertex SAS,Education,UK,2026-06-29T00,ads,contacted,7839.24,Inbound from event. Evaluating alternatives to Notion. Wants demo next week.
+LD-70105,Lumen SAS,Retail,US,2026-07-11T00,event,new,4445.96,"Rencontré via event. Grande équipe, ~15 personnes. Intéressé par plan annuel."
+LD-70106,Northwind SAS,Healthcare,FR,2026-07-23T00,event,lost,43254.57,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70107,Northwind Inc,Healthcare,FR,2026-07-05T00,referral,qualified,21774.45,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70108,Lumen BV,Healthcare,EU,2026-06-29T00,referral,lost,33136.06,"Rencontré via organic. Grande équipe, ~350 personnes. Intéressé par plan annuel."
+LD-70109,Acme Inc,Media,US,2026-06-29T00,ads,won,3941.86,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70110,Northwind GmbH,SaaS,US,2026-07-25T00,ads,won,16681.52,Spoke with COO. Budget confirmed for Q3. Currently using Notion.
+LD-70111,Acme Inc,SaaS,EU,2026-07-31T00,organic,lost,3067.39,Spoke with Ops Manager. Budget confirmed for Q3. Currently using Zapier.
+LD-70112,Northwind Inc,Media,US,2026-07-29T00,referral,new,51518.83,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70113,Helix Inc,E-commerce,US,2026-06-29T00,ads,new,4943.45,Échangé avec le/la Head of Ops. Budget confirmé pour T3. Utilise actuellement Asana.
+LD-70114,Acme Inc,Education,US,2026-06-11T00,referral,contacted,50403.6,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70115,Bright BV,SaaS,FR,2026-07-08T00,ads,new,3826.62,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70116,Bright SAS,SaaS,UK,2026-06-11T00,organic,qualified,6198.41,"Met at referral. Large team, ~60 people. Interested in annual plan."
+LD-70117,Vortex SAS,Media,UK,2026-06-26T00,event,contacted,22268.37,"Rencontré via organic. Grande équipe, ~8 personnes. Intéressé par plan annuel."
+LD-70118,Bright SAS,E-commerce,US,2026-06-17T00,event,contacted,72504.07,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70119,Acme SAS,E-commerce,EU,2026-07-11T00,referral,lost,10009.36,Entrant via ads. Évalue des alternatives à HubSpot. Démo la semaine prochaine.
+LD-70120,Cobalt Inc,Education,EU,2026-07-07T00,organic,won,16022.2,Inbound from ads. Evaluating alternatives to HubSpot. Wants demo next week.
+LD-70121,Vortex GmbH,E-commerce,EU,2026-07-04T00,ads,lost,63339.49,Entrant via organic. Évalue des alternatives à Zapier. Démo la semaine prochaine.
+LD-70122,Acme Ltd,SaaS,US,2026-07-30T00,ads,lost,69417.9,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70123,Lumen Inc,Retail,FR,2026-07-25T00,organic,lost,2267.45,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70124,Northwind BV,E-commerce,FR,2026-07-25T00,ads,won,16702.03,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70125,Vertex BV,SaaS,FR,2026-07-03T00,ads,contacted,50956.58,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70126,Vertex Ltd,Fintech,FR,2026-08-01T00,event,qualified,69669.5,"Rencontré via organic. Grande équipe, ~15 personnes. Intéressé par plan annuel."
+LD-70127,Helix Ltd,SaaS,US,2026-06-06T00,event,lost,21121.17,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70128,Helix BV,Manufacturing,US,2026-06-23T00,organic,contacted,27862.87,Entrant via event. Évalue des alternatives à Salesforce. Démo la semaine prochaine.
+LD-70129,Helix SAS,Education,EU,2026-07-29T00,event,contacted,16669.0,"Met at event. Large team, ~45 people. Interested in annual plan."
+LD-70130,Vortex GmbH,SaaS,UK,2026-06-11T00,referral,qualified,8444.54,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70131,Vertex Inc,E-commerce,UK,2026-07-01T00,event,won,58146.9,Spoke with Ops Manager. Budget confirmed for Q3. Currently using Zapier.
+LD-70132,Cobalt BV,Manufacturing,EU,2026-06-21T00,referral,won,19640.35,"Met at referral. Large team, ~15 people. Interested in annual plan."
+LD-70133,Bright Inc,Manufacturing,UK,2026-07-14T00,event,won,33544.53,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70134,Cobalt GmbH,Fintech,FR,2026-06-24T00,ads,new,18213.54,Entrant via organic. Évalue des alternatives à Asana. Démo la semaine prochaine.
+LD-70135,Lumen Ltd,Healthcare,US,2026-06-04T00,event,won,21002.26,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70136,Vortex BV,SaaS,US,2026-06-13T00,event,qualified,48344.5,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70137,Vertex Inc,Retail,FR,2026-06-14T00,organic,new,6742.93,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70138,Lumen GmbH,Fintech,FR,2026-07-13T00,ads,new,27758.19,Échangé avec le/la VP Engineering. Budget confirmé pour T3. Utilise actuellement Asana.
+LD-70139,Bright Ltd,SaaS,UK,2026-08-01T00,organic,contacted,27338.2,Échangé avec le/la VP Engineering. Budget confirmé pour T3. Utilise actuellement Salesforce.
+LD-70140,Bright Ltd,Education,UK,2026-08-01T00,event,contacted,24296.89,"Rencontré via event. Grande équipe, ~8 personnes. Intéressé par plan annuel."
+LD-70141,Vertex SAS,Retail,FR,2026-06-11T00,event,new,28301.09,Spoke with Head of Ops. Budget confirmed for Q3. Currently using HubSpot.
+LD-70142,Vertex Inc,SaaS,EU,2026-07-03T00,ads,won,48530.11,Échangé avec le/la Head of Ops. Budget confirmé pour T3. Utilise actuellement Zapier.
+LD-70143,Acme Ltd,SaaS,FR,2026-07-25T00,organic,new,19371.02,Inbound from referral. Evaluating alternatives to Zapier. Wants demo next week.
+LD-70144,Acme Ltd,Healthcare,UK,2026-06-08T00,referral,lost,4311.91,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70145,Bright BV,SaaS,US,2026-07-06T00,referral,qualified,6836.55,Échangé avec le/la CTO. Budget confirmé pour T3. Utilise actuellement Notion.
+LD-70146,Vortex SAS,SaaS,UK,2026-07-27T00,referral,contacted,34517.01,Échangé avec le/la Head of Ops. Budget confirmé pour T3. Utilise actuellement HubSpot.
+LD-70147,Helix GmbH,Retail,FR,2026-06-16T00,ads,contacted,21906.75,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70148,Lumen BV,Fintech,UK,2026-06-17T00,referral,contacted,40028.13,"Met at organic. Large team, ~15 people. Interested in annual plan."
+LD-70149,Acme Inc,Healthcare,EU,2026-06-29T00,referral,contacted,2898.15,Entrant via event. Évalue des alternatives à Asana. Démo la semaine prochaine.
+LD-70150,Bright SAS,E-commerce,FR,2026-06-10T00,event,new,45496.66,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70151,Lumen Ltd,Media,US,2026-06-29T00,organic,won,57404.56,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70152,Helix Ltd,Retail,UK,2026-07-18T00,referral,new,31293.44,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70153,Lumen SAS,Retail,US,2026-07-28T00,ads,qualified,29671.09,Spoke with CTO. Budget confirmed for Q3. Currently using Notion.
+LD-70154,Acme SAS,E-commerce,UK,2026-06-05T00,referral,qualified,20207.57,Échangé avec le/la Ops Manager. Budget confirmé pour T3. Utilise actuellement Asana.
+LD-70155,Northwind BV,Manufacturing,EU,2026-06-14T00,referral,new,74307.65,Inbound from organic. Evaluating alternatives to Monday. Wants demo next week.
+LD-70156,Northwind Inc,Retail,FR,2026-06-24T00,organic,lost,42316.98,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70157,Vertex BV,SaaS,UK,2026-06-23T00,ads,contacted,31137.73,"Met at ads. Large team, ~500 people. Interested in annual plan."
+LD-70158,Cobalt BV,Media,UK,2026-06-23T00,referral,new,16120.12,"Met at referral. Large team, ~8 people. Interested in annual plan."
+LD-70159,Vertex SAS,Education,UK,2026-06-23T00,ads,new,54521.87,"Rencontré via ads. Grande équipe, ~1200 personnes. Intéressé par plan annuel."
+LD-70160,Vortex SAS,Fintech,EU,2026-07-27T00,referral,new,25291.99,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70161,Vertex Ltd,Healthcare,EU,2026-07-17T00,organic,new,63693.44,Spoke with VP Engineering. Budget confirmed for Q3. Currently using Monday.
+LD-70162,Northwind GmbH,Education,US,2026-06-04T00,referral,qualified,67781.81,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70163,Vortex GmbH,Healthcare,UK,2026-06-03T00,referral,lost,29081.41,Inbound from ads. Evaluating alternatives to Salesforce. Wants demo next week.
+LD-70164,Northwind GmbH,Healthcare,EU,2026-06-26T00,referral,contacted,2979.89,"Rencontré via ads. Grande équipe, ~120 personnes. Intéressé par plan annuel."
+LD-70165,Vertex SAS,Manufacturing,UK,2026-06-27T00,event,won,69497.49,Échangé avec le/la COO. Budget confirmé pour T3. Utilise actuellement Asana.
+LD-70166,Cobalt Inc,E-commerce,FR,2026-06-08T00,event,new,42049.4,"Rencontré via event. Grande équipe, ~15 personnes. Intéressé par plan annuel."
+LD-70167,Bright SAS,Education,UK,2026-06-14T00,ads,contacted,67654.15,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70168,Lumen Inc,Media,US,2026-07-17T00,ads,new,50562.71,"Met at referral. Large team, ~120 people. Interested in annual plan."
+LD-70169,Lumen Inc,Education,FR,2026-07-10T00,ads,new,20531.08,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70170,Cobalt GmbH,SaaS,FR,2026-06-06T00,organic,contacted,67895.2,Spoke with COO. Budget confirmed for Q3. Currently using Asana.
+LD-70171,Vertex BV,SaaS,FR,2026-07-08T00,referral,lost,47060.6,Pricing objection. Smaller team than expected. Nurture for next cycle.
+LD-70172,Cobalt Ltd,E-commerce,US,2026-07-25T00,ads,lost,8655.46,Échangé avec le/la VP Engineering. Budget confirmé pour T3. Utilise actuellement HubSpot.
+LD-70173,Bright Ltd,Manufacturing,US,2026-07-22T00,referral,won,68909.58,Échangé avec le/la COO. Budget confirmé pour T3. Utilise actuellement Notion.
+LD-70174,Northwind SAS,Fintech,EU,2026-07-04T00,referral,new,55891.29,"Met at event. Large team, ~45 people. Interested in annual plan."
+LD-70175,Vortex SAS,Fintech,FR,2026-07-02T00,organic,qualified,51113.05,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70176,Bright Ltd,SaaS,FR,2026-07-04T00,referral,won,42886.88,Referred by existing customer. Needs SSO and the API. Decision by end of quarter.
+LD-70177,Lumen SAS,Healthcare,US,2026-07-16T00,organic,qualified,53879.96,Recommandé par un client. Besoin de SSO et de l'API. Décision fin de trimestre.
+LD-70178,Vortex Inc,E-commerce,UK,2026-06-29T00,ads,new,22766.25,Objection sur le prix. Équipe plus petite que prévu. À cultiver pour le prochain cycle.
+LD-70179,Lumen BV,Fintech,US,2026-06-23T00,event,won,18162.5,Inbound from referral. Evaluating alternatives to Notion. Wants demo next week.
+LD-70180,Vortex BV,Healthcare,EU,2026-06-07T00,ads,won,16552.45,Pricing objection. Smaller team than expected. Nurture for next cycle.

@@ -1,0 +1,341 @@
+review_id,product_id,product_name,created_at,rating,language,title,body,verified
+REV-30001,P-1004,InsightDeck Dashboard,2026-07-09T00,5,fr,Conforme,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30002,P-1002,AcmeFlow CRM Add-on,2026-06-29T00,5,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30003,P-1005,FormBuilder Pro,2026-07-18T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,false
+REV-30004,P-1002,AcmeFlow CRM Add-on,2026-07-21T00,5,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30005,P-1005,FormBuilder Pro,2026-06-25T00,5,fr,J'adore,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30006,P-1004,InsightDeck Dashboard,2026-07-30T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30007,P-1003,DataPipe Connector Pack,2026-07-29T00,1,fr,Plein de bugs,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30008,P-1006,InboxZero Assistant,2026-07-29T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30009,P-1005,FormBuilder Pro,2026-06-04T00,1,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30010,P-1003,DataPipe Connector Pack,2026-06-17T00,4,fr,Meilleur achat,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30011,P-1004,InsightDeck Dashboard,2026-06-21T00,5,en,Great product,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30012,P-1002,AcmeFlow CRM Add-on,2026-06-25T00,4,fr,J'adore,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,false
+REV-30013,P-1001,AcmeFlow Project Manager,2026-06-10T00,1,en,Bugs everywhere,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,true
+REV-30014,P-1001,AcmeFlow Project Manager,2026-07-05T00,5,en,Great product,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30015,P-1001,AcmeFlow Project Manager,2026-07-23T00,5,en,Great product,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,false
+REV-30016,P-1002,AcmeFlow CRM Add-on,2026-07-13T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,false
+REV-30017,P-1003,DataPipe Connector Pack,2026-07-29T00,4,en,Best purchase this year,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30018,P-1003,DataPipe Connector Pack,2026-07-20T00,4,en,Great product,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30019,P-1004,InsightDeck Dashboard,2026-06-20T00,3,fr,Plutôt bien,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30020,P-1002,AcmeFlow CRM Add-on,2026-06-19T00,2,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,false
+REV-30021,P-1001,AcmeFlow Project Manager,2026-07-21T00,1,en,Disappointing,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,false
+REV-30022,P-1003,DataPipe Connector Pack,2026-06-19T00,4,en,Love it,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30023,P-1004,InsightDeck Dashboard,2026-06-23T00,5,en,Love it,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30024,P-1003,DataPipe Connector Pack,2026-07-15T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30025,P-1004,InsightDeck Dashboard,2026-07-06T00,4,fr,Conforme,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,false
+REV-30026,P-1002,AcmeFlow CRM Add-on,2026-07-13T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30027,P-1001,AcmeFlow Project Manager,2026-07-31T00,1,fr,Plein de bugs,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30028,P-1002,AcmeFlow CRM Add-on,2026-07-27T00,1,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30029,P-1004,InsightDeck Dashboard,2026-06-06T00,3,en,Just okay,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,true
+REV-30030,P-1004,InsightDeck Dashboard,2026-07-31T00,4,fr,Conforme,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30031,P-1001,AcmeFlow Project Manager,2026-07-21T00,5,fr,Meilleur achat,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,false
+REV-30032,P-1001,AcmeFlow Project Manager,2026-06-16T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,false
+REV-30033,P-1005,FormBuilder Pro,2026-06-24T00,5,en,Works as expected,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30034,P-1001,AcmeFlow Project Manager,2026-07-04T00,5,fr,J'adore,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30035,P-1004,InsightDeck Dashboard,2026-07-06T00,3,en,Just okay,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,false
+REV-30036,P-1004,InsightDeck Dashboard,2026-06-23T00,3,en,Mostly good,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,true
+REV-30037,P-1003,DataPipe Connector Pack,2026-07-17T00,5,en,Great product,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30038,P-1005,FormBuilder Pro,2026-06-19T00,4,en,Great product,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30039,P-1004,InsightDeck Dashboard,2026-06-19T00,5,fr,Super produit,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30040,P-1002,AcmeFlow CRM Add-on,2026-06-29T00,5,fr,J'adore,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30041,P-1002,AcmeFlow CRM Add-on,2026-06-26T00,5,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30042,P-1004,InsightDeck Dashboard,2026-07-07T00,5,fr,J'adore,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30043,P-1006,InboxZero Assistant,2026-07-05T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30044,P-1004,InsightDeck Dashboard,2026-07-10T00,4,fr,Conforme,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,false
+REV-30045,P-1001,AcmeFlow Project Manager,2026-06-20T00,5,en,Love it,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30046,P-1003,DataPipe Connector Pack,2026-06-23T00,4,en,Best purchase this year,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30047,P-1005,FormBuilder Pro,2026-07-26T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30048,P-1006,InboxZero Assistant,2026-07-22T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30049,P-1001,AcmeFlow Project Manager,2026-06-25T00,4,en,Love it,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30050,P-1002,AcmeFlow CRM Add-on,2026-06-06T00,4,fr,Super produit,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30051,P-1005,FormBuilder Pro,2026-07-09T00,3,en,Just okay,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,true
+REV-30052,P-1001,AcmeFlow Project Manager,2026-07-12T00,5,fr,J'adore,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30053,P-1003,DataPipe Connector Pack,2026-07-06T00,4,en,Great product,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30054,P-1006,InboxZero Assistant,2026-06-15T00,2,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,false
+REV-30055,P-1003,DataPipe Connector Pack,2026-06-18T00,1,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30056,P-1003,DataPipe Connector Pack,2026-07-17T00,5,fr,Super produit,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,true
+REV-30057,P-1006,InboxZero Assistant,2026-06-21T00,5,en,Best purchase this year,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30058,P-1001,AcmeFlow Project Manager,2026-06-11T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30059,P-1005,FormBuilder Pro,2026-07-13T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30060,P-1006,InboxZero Assistant,2026-07-20T00,3,fr,Mitigé,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30061,P-1006,InboxZero Assistant,2026-06-04T00,2,en,Disappointing,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30062,P-1001,AcmeFlow Project Manager,2026-06-22T00,5,en,Love it,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,false
+REV-30063,P-1002,AcmeFlow CRM Add-on,2026-07-10T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30064,P-1005,FormBuilder Pro,2026-07-11T00,1,en,Disappointing,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30065,P-1006,InboxZero Assistant,2026-06-27T00,4,fr,J'adore,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30066,P-1004,InsightDeck Dashboard,2026-06-06T00,4,fr,Super produit,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30067,P-1004,InsightDeck Dashboard,2026-06-23T00,1,en,Bugs everywhere,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,false
+REV-30068,P-1005,FormBuilder Pro,2026-06-19T00,2,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30069,P-1006,InboxZero Assistant,2026-07-25T00,1,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30070,P-1001,AcmeFlow Project Manager,2026-06-07T00,5,en,Works as expected,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30071,P-1005,FormBuilder Pro,2026-06-30T00,4,fr,J'adore,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,false
+REV-30072,P-1006,InboxZero Assistant,2026-07-13T00,2,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30073,P-1005,FormBuilder Pro,2026-06-16T00,3,fr,Mitigé,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30074,P-1002,AcmeFlow CRM Add-on,2026-06-19T00,5,en,Great product,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30075,P-1004,InsightDeck Dashboard,2026-06-23T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,false
+REV-30076,P-1006,InboxZero Assistant,2026-06-20T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,false
+REV-30077,P-1001,AcmeFlow Project Manager,2026-06-13T00,2,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30078,P-1002,AcmeFlow CRM Add-on,2026-06-29T00,5,fr,Super produit,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,false
+REV-30079,P-1006,InboxZero Assistant,2026-07-29T00,1,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,false
+REV-30080,P-1005,FormBuilder Pro,2026-07-14T00,2,en,Disappointing,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,true
+REV-30081,P-1005,FormBuilder Pro,2026-07-05T00,5,fr,Super produit,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,false
+REV-30082,P-1001,AcmeFlow Project Manager,2026-06-21T00,5,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30083,P-1002,AcmeFlow CRM Add-on,2026-07-04T00,5,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30084,P-1003,DataPipe Connector Pack,2026-07-21T00,4,en,Great product,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30085,P-1004,InsightDeck Dashboard,2026-06-22T00,4,fr,Meilleur achat,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,false
+REV-30086,P-1006,InboxZero Assistant,2026-07-04T00,3,en,Mostly good,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,false
+REV-30087,P-1006,InboxZero Assistant,2026-07-07T00,4,en,Love it,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30088,P-1005,FormBuilder Pro,2026-06-17T00,5,en,Works as expected,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30089,P-1006,InboxZero Assistant,2026-06-21T00,1,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30090,P-1003,DataPipe Connector Pack,2026-07-11T00,5,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30091,P-1003,DataPipe Connector Pack,2026-07-06T00,4,fr,Conforme,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,false
+REV-30092,P-1003,DataPipe Connector Pack,2026-07-05T00,5,fr,Meilleur achat,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30093,P-1003,DataPipe Connector Pack,2026-07-07T00,1,en,Disappointing,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,false
+REV-30094,P-1006,InboxZero Assistant,2026-07-26T00,1,en,Disappointing,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,false
+REV-30095,P-1002,AcmeFlow CRM Add-on,2026-07-29T00,4,fr,Meilleur achat,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30096,P-1006,InboxZero Assistant,2026-07-08T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30097,P-1005,FormBuilder Pro,2026-07-01T00,5,en,Best purchase this year,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30098,P-1001,AcmeFlow Project Manager,2026-06-12T00,5,en,Great product,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30099,P-1002,AcmeFlow CRM Add-on,2026-06-19T00,4,en,Love it,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30100,P-1005,FormBuilder Pro,2026-07-13T00,1,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,false
+REV-30101,P-1004,InsightDeck Dashboard,2026-07-07T00,4,fr,Meilleur achat,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,true
+REV-30102,P-1003,DataPipe Connector Pack,2026-06-09T00,3,fr,Mitigé,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30103,P-1004,InsightDeck Dashboard,2026-07-31T00,4,en,Best purchase this year,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30104,P-1002,AcmeFlow CRM Add-on,2026-07-12T00,3,en,Just okay,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,true
+REV-30105,P-1006,InboxZero Assistant,2026-07-07T00,2,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30106,P-1003,DataPipe Connector Pack,2026-06-06T00,5,fr,Super produit,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30107,P-1003,DataPipe Connector Pack,2026-07-16T00,5,en,Love it,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30108,P-1001,AcmeFlow Project Manager,2026-06-10T00,4,en,Great product,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30109,P-1002,AcmeFlow CRM Add-on,2026-07-14T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30110,P-1004,InsightDeck Dashboard,2026-07-03T00,5,en,Best purchase this year,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30111,P-1006,InboxZero Assistant,2026-06-25T00,1,fr,Plein de bugs,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30112,P-1006,InboxZero Assistant,2026-07-22T00,2,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,false
+REV-30113,P-1002,AcmeFlow CRM Add-on,2026-07-04T00,2,fr,Plein de bugs,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30114,P-1001,AcmeFlow Project Manager,2026-07-01T00,5,en,Best purchase this year,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30115,P-1006,InboxZero Assistant,2026-07-02T00,3,fr,Plutôt bien,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30116,P-1006,InboxZero Assistant,2026-06-07T00,3,fr,Mitigé,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,false
+REV-30117,P-1004,InsightDeck Dashboard,2026-07-09T00,3,en,Mostly good,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,false
+REV-30118,P-1006,InboxZero Assistant,2026-06-05T00,1,fr,Plein de bugs,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30119,P-1004,InsightDeck Dashboard,2026-07-22T00,4,fr,Conforme,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,false
+REV-30120,P-1001,AcmeFlow Project Manager,2026-06-22T00,2,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30121,P-1006,InboxZero Assistant,2026-07-11T00,2,en,Bugs everywhere,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,true
+REV-30122,P-1005,FormBuilder Pro,2026-07-11T00,4,fr,Conforme,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,false
+REV-30123,P-1004,InsightDeck Dashboard,2026-07-07T00,5,fr,Meilleur achat,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,false
+REV-30124,P-1002,AcmeFlow CRM Add-on,2026-06-13T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30125,P-1006,InboxZero Assistant,2026-07-20T00,3,fr,Mitigé,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30126,P-1006,InboxZero Assistant,2026-06-17T00,4,fr,Meilleur achat,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,false
+REV-30127,P-1001,AcmeFlow Project Manager,2026-07-05T00,4,fr,Conforme,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30128,P-1005,FormBuilder Pro,2026-06-14T00,3,fr,Mitigé,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30129,P-1006,InboxZero Assistant,2026-06-08T00,2,en,Disappointing,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,false
+REV-30130,P-1001,AcmeFlow Project Manager,2026-06-09T00,5,fr,J'adore,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30131,P-1002,AcmeFlow CRM Add-on,2026-06-10T00,2,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30132,P-1001,AcmeFlow Project Manager,2026-07-17T00,5,fr,Conforme,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,false
+REV-30133,P-1004,InsightDeck Dashboard,2026-07-09T00,5,fr,J'adore,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,false
+REV-30134,P-1006,InboxZero Assistant,2026-07-25T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30135,P-1003,DataPipe Connector Pack,2026-07-13T00,4,fr,Conforme,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,false
+REV-30136,P-1006,InboxZero Assistant,2026-06-26T00,4,fr,Conforme,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30137,P-1006,InboxZero Assistant,2026-07-25T00,1,en,Disappointing,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,true
+REV-30138,P-1002,AcmeFlow CRM Add-on,2026-07-25T00,4,en,Best purchase this year,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,false
+REV-30139,P-1002,AcmeFlow CRM Add-on,2026-07-05T00,3,en,Just okay,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30140,P-1006,InboxZero Assistant,2026-07-29T00,1,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,false
+REV-30141,P-1003,DataPipe Connector Pack,2026-07-15T00,3,en,Just okay,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,false
+REV-30142,P-1006,InboxZero Assistant,2026-07-05T00,2,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30143,P-1001,AcmeFlow Project Manager,2026-07-17T00,4,en,Best purchase this year,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30144,P-1002,AcmeFlow CRM Add-on,2026-06-19T00,2,en,Disappointing,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30145,P-1002,AcmeFlow CRM Add-on,2026-06-10T00,5,fr,J'adore,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30146,P-1005,FormBuilder Pro,2026-06-07T00,1,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,false
+REV-30147,P-1006,InboxZero Assistant,2026-06-07T00,3,en,Just okay,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30148,P-1004,InsightDeck Dashboard,2026-07-08T00,2,en,Disappointing,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30149,P-1001,AcmeFlow Project Manager,2026-07-16T00,5,fr,Meilleur achat,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30150,P-1005,FormBuilder Pro,2026-07-19T00,4,en,Love it,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30151,P-1004,InsightDeck Dashboard,2026-07-04T00,2,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30152,P-1005,FormBuilder Pro,2026-07-18T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30153,P-1001,AcmeFlow Project Manager,2026-07-11T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,false
+REV-30154,P-1002,AcmeFlow CRM Add-on,2026-06-20T00,5,en,Love it,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30155,P-1001,AcmeFlow Project Manager,2026-06-29T00,4,en,Great product,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30156,P-1005,FormBuilder Pro,2026-07-05T00,5,en,Best purchase this year,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30157,P-1005,FormBuilder Pro,2026-07-26T00,3,en,Just okay,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,false
+REV-30158,P-1003,DataPipe Connector Pack,2026-07-25T00,5,en,Love it,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,false
+REV-30159,P-1002,AcmeFlow CRM Add-on,2026-07-07T00,5,en,Great product,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30160,P-1006,InboxZero Assistant,2026-06-09T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30161,P-1003,DataPipe Connector Pack,2026-07-24T00,1,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30162,P-1006,InboxZero Assistant,2026-06-20T00,2,fr,Plein de bugs,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30163,P-1003,DataPipe Connector Pack,2026-08-01T00,5,fr,Conforme,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,false
+REV-30164,P-1004,InsightDeck Dashboard,2026-06-29T00,5,en,Great product,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30165,P-1002,AcmeFlow CRM Add-on,2026-07-09T00,4,fr,J'adore,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30166,P-1004,InsightDeck Dashboard,2026-07-15T00,5,en,Love it,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30167,P-1004,InsightDeck Dashboard,2026-07-08T00,5,fr,Super produit,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30168,P-1004,InsightDeck Dashboard,2026-08-01T00,4,en,Best purchase this year,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30169,P-1006,InboxZero Assistant,2026-07-16T00,1,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30170,P-1004,InsightDeck Dashboard,2026-06-26T00,4,en,Works as expected,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,false
+REV-30171,P-1004,InsightDeck Dashboard,2026-06-06T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30172,P-1004,InsightDeck Dashboard,2026-06-21T00,4,fr,Conforme,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,false
+REV-30173,P-1004,InsightDeck Dashboard,2026-07-31T00,2,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,false
+REV-30174,P-1004,InsightDeck Dashboard,2026-06-23T00,4,fr,Meilleur achat,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30175,P-1005,FormBuilder Pro,2026-07-25T00,3,en,Just okay,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,false
+REV-30176,P-1004,InsightDeck Dashboard,2026-08-01T00,1,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30177,P-1001,AcmeFlow Project Manager,2026-07-22T00,5,en,Love it,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,false
+REV-30178,P-1006,InboxZero Assistant,2026-07-24T00,1,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,false
+REV-30179,P-1005,FormBuilder Pro,2026-06-08T00,2,fr,Plein de bugs,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,false
+REV-30180,P-1001,AcmeFlow Project Manager,2026-07-09T00,3,fr,Mitigé,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,false
+REV-30181,P-1001,AcmeFlow Project Manager,2026-06-15T00,5,en,Works as expected,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,false
+REV-30182,P-1006,InboxZero Assistant,2026-06-15T00,1,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30183,P-1002,AcmeFlow CRM Add-on,2026-07-23T00,3,fr,Plutôt bien,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,false
+REV-30184,P-1002,AcmeFlow CRM Add-on,2026-06-21T00,3,en,Just okay,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,true
+REV-30185,P-1005,FormBuilder Pro,2026-06-12T00,3,fr,Plutôt bien,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30186,P-1004,InsightDeck Dashboard,2026-06-11T00,5,fr,Super produit,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30187,P-1006,InboxZero Assistant,2026-07-02T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,false
+REV-30188,P-1004,InsightDeck Dashboard,2026-07-06T00,4,en,Great product,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30189,P-1004,InsightDeck Dashboard,2026-06-11T00,5,en,Works as expected,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30190,P-1003,DataPipe Connector Pack,2026-06-25T00,5,fr,Conforme,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30191,P-1005,FormBuilder Pro,2026-06-14T00,5,fr,Super produit,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,true
+REV-30192,P-1006,InboxZero Assistant,2026-07-24T00,1,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30193,P-1001,AcmeFlow Project Manager,2026-06-12T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30194,P-1006,InboxZero Assistant,2026-07-08T00,2,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30195,P-1003,DataPipe Connector Pack,2026-07-13T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30196,P-1001,AcmeFlow Project Manager,2026-06-07T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30197,P-1006,InboxZero Assistant,2026-06-28T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30198,P-1003,DataPipe Connector Pack,2026-06-26T00,4,en,Great product,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,false
+REV-30199,P-1005,FormBuilder Pro,2026-07-20T00,5,en,Love it,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30200,P-1004,InsightDeck Dashboard,2026-07-12T00,3,en,Just okay,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,false
+REV-30201,P-1003,DataPipe Connector Pack,2026-06-07T00,3,en,Mostly good,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,false
+REV-30202,P-1003,DataPipe Connector Pack,2026-07-13T00,5,en,Love it,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30203,P-1005,FormBuilder Pro,2026-07-20T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,false
+REV-30204,P-1004,InsightDeck Dashboard,2026-06-07T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30205,P-1003,DataPipe Connector Pack,2026-06-27T00,4,fr,Meilleur achat,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,false
+REV-30206,P-1004,InsightDeck Dashboard,2026-06-16T00,1,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,false
+REV-30207,P-1005,FormBuilder Pro,2026-07-28T00,5,fr,Super produit,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30208,P-1003,DataPipe Connector Pack,2026-07-16T00,4,fr,Meilleur achat,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,true
+REV-30209,P-1005,FormBuilder Pro,2026-07-29T00,4,en,Love it,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30210,P-1005,FormBuilder Pro,2026-06-27T00,4,fr,Conforme,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30211,P-1003,DataPipe Connector Pack,2026-07-27T00,5,en,Great product,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,false
+REV-30212,P-1004,InsightDeck Dashboard,2026-06-15T00,4,en,Works as expected,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,false
+REV-30213,P-1002,AcmeFlow CRM Add-on,2026-07-11T00,4,en,Love it,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30214,P-1003,DataPipe Connector Pack,2026-07-28T00,5,fr,Meilleur achat,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,false
+REV-30215,P-1005,FormBuilder Pro,2026-07-20T00,3,en,Just okay,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,true
+REV-30216,P-1003,DataPipe Connector Pack,2026-07-12T00,3,fr,Plutôt bien,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,false
+REV-30217,P-1006,InboxZero Assistant,2026-07-10T00,1,en,Disappointing,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,true
+REV-30218,P-1006,InboxZero Assistant,2026-06-18T00,4,en,Best purchase this year,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30219,P-1006,InboxZero Assistant,2026-07-10T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30220,P-1006,InboxZero Assistant,2026-06-29T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,false
+REV-30221,P-1001,AcmeFlow Project Manager,2026-06-18T00,3,fr,Plutôt bien,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,false
+REV-30222,P-1002,AcmeFlow CRM Add-on,2026-06-19T00,5,fr,Meilleur achat,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30223,P-1002,AcmeFlow CRM Add-on,2026-07-31T00,5,fr,J'adore,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30224,P-1005,FormBuilder Pro,2026-07-23T00,4,fr,Conforme,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,false
+REV-30225,P-1004,InsightDeck Dashboard,2026-07-23T00,5,en,Best purchase this year,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30226,P-1006,InboxZero Assistant,2026-06-21T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,false
+REV-30227,P-1005,FormBuilder Pro,2026-07-04T00,5,fr,Conforme,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,false
+REV-30228,P-1003,DataPipe Connector Pack,2026-06-09T00,4,fr,Meilleur achat,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30229,P-1001,AcmeFlow Project Manager,2026-07-06T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,false
+REV-30230,P-1002,AcmeFlow CRM Add-on,2026-07-08T00,5,en,Best purchase this year,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30231,P-1003,DataPipe Connector Pack,2026-07-08T00,4,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30232,P-1004,InsightDeck Dashboard,2026-07-09T00,4,fr,Conforme,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,false
+REV-30233,P-1003,DataPipe Connector Pack,2026-07-27T00,4,fr,J'adore,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,true
+REV-30234,P-1002,AcmeFlow CRM Add-on,2026-07-02T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,false
+REV-30235,P-1006,InboxZero Assistant,2026-07-05T00,3,fr,Plutôt bien,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30236,P-1005,FormBuilder Pro,2026-07-01T00,4,fr,Meilleur achat,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,false
+REV-30237,P-1001,AcmeFlow Project Manager,2026-06-09T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,false
+REV-30238,P-1001,AcmeFlow Project Manager,2026-07-01T00,4,en,Best purchase this year,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30239,P-1002,AcmeFlow CRM Add-on,2026-06-24T00,4,en,Best purchase this year,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30240,P-1005,FormBuilder Pro,2026-07-16T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30241,P-1002,AcmeFlow CRM Add-on,2026-07-14T00,4,fr,Conforme,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30242,P-1002,AcmeFlow CRM Add-on,2026-06-13T00,3,en,Just okay,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30243,P-1005,FormBuilder Pro,2026-06-12T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30244,P-1006,InboxZero Assistant,2026-06-22T00,1,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30245,P-1001,AcmeFlow Project Manager,2026-06-20T00,5,en,Great product,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30246,P-1003,DataPipe Connector Pack,2026-07-11T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30247,P-1002,AcmeFlow CRM Add-on,2026-07-28T00,5,en,Love it,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30248,P-1001,AcmeFlow Project Manager,2026-07-01T00,3,en,Mostly good,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,false
+REV-30249,P-1006,InboxZero Assistant,2026-07-06T00,1,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30250,P-1001,AcmeFlow Project Manager,2026-06-08T00,5,fr,Super produit,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30251,P-1002,AcmeFlow CRM Add-on,2026-07-01T00,5,en,Love it,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30252,P-1005,FormBuilder Pro,2026-07-20T00,4,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30253,P-1001,AcmeFlow Project Manager,2026-08-01T00,5,fr,Conforme,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30254,P-1006,InboxZero Assistant,2026-06-14T00,1,en,Disappointing,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,true
+REV-30255,P-1004,InsightDeck Dashboard,2026-07-29T00,3,en,Just okay,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,false
+REV-30256,P-1001,AcmeFlow Project Manager,2026-06-13T00,4,en,Great product,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30257,P-1003,DataPipe Connector Pack,2026-06-18T00,5,en,Works as expected,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,false
+REV-30258,P-1001,AcmeFlow Project Manager,2026-06-09T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30259,P-1005,FormBuilder Pro,2026-06-28T00,4,en,Works as expected,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30260,P-1006,InboxZero Assistant,2026-06-28T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30261,P-1003,DataPipe Connector Pack,2026-07-16T00,4,fr,Super produit,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30262,P-1005,FormBuilder Pro,2026-06-09T00,5,fr,J'adore,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,false
+REV-30263,P-1005,FormBuilder Pro,2026-06-23T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30264,P-1001,AcmeFlow Project Manager,2026-06-15T00,4,fr,Meilleur achat,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,false
+REV-30265,P-1005,FormBuilder Pro,2026-07-15T00,5,en,Works as expected,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,false
+REV-30266,P-1004,InsightDeck Dashboard,2026-06-24T00,5,fr,Conforme,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30267,P-1005,FormBuilder Pro,2026-07-01T00,4,fr,Conforme,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,false
+REV-30268,P-1001,AcmeFlow Project Manager,2026-06-05T00,3,en,Mostly good,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,true
+REV-30269,P-1005,FormBuilder Pro,2026-06-28T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30270,P-1005,FormBuilder Pro,2026-07-13T00,5,fr,Super produit,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30271,P-1005,FormBuilder Pro,2026-06-10T00,5,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30272,P-1003,DataPipe Connector Pack,2026-07-28T00,2,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,false
+REV-30273,P-1005,FormBuilder Pro,2026-07-10T00,5,en,Great product,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30274,P-1001,AcmeFlow Project Manager,2026-07-05T00,4,fr,Super produit,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,false
+REV-30275,P-1003,DataPipe Connector Pack,2026-07-06T00,4,fr,Super produit,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30276,P-1006,InboxZero Assistant,2026-07-11T00,4,en,Works as expected,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30277,P-1006,InboxZero Assistant,2026-07-08T00,5,fr,Meilleur achat,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,false
+REV-30278,P-1001,AcmeFlow Project Manager,2026-06-16T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30279,P-1006,InboxZero Assistant,2026-08-01T00,2,en,Disappointing,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,true
+REV-30280,P-1003,DataPipe Connector Pack,2026-06-28T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,true
+REV-30281,P-1005,FormBuilder Pro,2026-06-11T00,3,fr,Mitigé,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,false
+REV-30282,P-1004,InsightDeck Dashboard,2026-06-03T00,4,fr,Meilleur achat,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30283,P-1003,DataPipe Connector Pack,2026-06-25T00,5,fr,Super produit,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30284,P-1006,InboxZero Assistant,2026-06-09T00,1,en,Bugs everywhere,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,false
+REV-30285,P-1002,AcmeFlow CRM Add-on,2026-07-05T00,2,en,Disappointing,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30286,P-1006,InboxZero Assistant,2026-06-25T00,1,en,Disappointing,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30287,P-1001,AcmeFlow Project Manager,2026-06-29T00,5,en,Best purchase this year,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,false
+REV-30288,P-1003,DataPipe Connector Pack,2026-07-06T00,4,en,Works as expected,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30289,P-1001,AcmeFlow Project Manager,2026-07-24T00,2,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30290,P-1005,FormBuilder Pro,2026-06-18T00,4,en,Best purchase this year,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30291,P-1003,DataPipe Connector Pack,2026-06-14T00,4,fr,Super produit,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30292,P-1004,InsightDeck Dashboard,2026-06-10T00,5,en,Great product,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30293,P-1004,InsightDeck Dashboard,2026-06-26T00,5,en,Works as expected,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30294,P-1006,InboxZero Assistant,2026-07-03T00,3,en,Just okay,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,true
+REV-30295,P-1001,AcmeFlow Project Manager,2026-06-07T00,5,fr,Super produit,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,true
+REV-30296,P-1004,InsightDeck Dashboard,2026-06-21T00,3,en,Mostly good,Works well 80% of the time but we hit occasional slowdowns during peak hours. Reporting could be richer.,true
+REV-30297,P-1005,FormBuilder Pro,2026-06-25T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,false
+REV-30298,P-1006,InboxZero Assistant,2026-06-03T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30299,P-1005,FormBuilder Pro,2026-06-16T00,4,en,Works as expected,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,true
+REV-30300,P-1006,InboxZero Assistant,2026-07-20T00,5,en,Great product,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30301,P-1004,InsightDeck Dashboard,2026-07-15T00,4,fr,J'adore,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,false
+REV-30302,P-1004,InsightDeck Dashboard,2026-06-10T00,1,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,false
+REV-30303,P-1001,AcmeFlow Project Manager,2026-07-17T00,1,en,Bugs everywhere,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,true
+REV-30304,P-1004,InsightDeck Dashboard,2026-06-25T00,4,fr,Super produit,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30305,P-1004,InsightDeck Dashboard,2026-07-21T00,5,en,Works as expected,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30306,P-1006,InboxZero Assistant,2026-07-27T00,2,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30307,P-1003,DataPipe Connector Pack,2026-06-15T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,true
+REV-30308,P-1003,DataPipe Connector Pack,2026-07-25T00,3,fr,Mitigé,Mitigé. Ça fait le job mais rien ne se démarque. Je regarde les alternatives vu le prix.,false
+REV-30309,P-1003,DataPipe Connector Pack,2026-06-13T00,4,en,Best purchase this year,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,false
+REV-30310,P-1006,InboxZero Assistant,2026-07-18T00,1,en,Bugs everywhere,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,false
+REV-30311,P-1002,AcmeFlow CRM Add-on,2026-07-14T00,5,fr,Super produit,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30312,P-1004,InsightDeck Dashboard,2026-07-30T00,4,fr,Conforme,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30313,P-1006,InboxZero Assistant,2026-07-29T00,1,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30314,P-1006,InboxZero Assistant,2026-06-09T00,2,en,Disappointing,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,false
+REV-30315,P-1005,FormBuilder Pro,2026-06-26T00,1,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,true
+REV-30316,P-1003,DataPipe Connector Pack,2026-07-06T00,5,en,Love it,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,false
+REV-30317,P-1006,InboxZero Assistant,2026-06-12T00,2,fr,Décevant,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,false
+REV-30318,P-1002,AcmeFlow CRM Add-on,2026-07-13T00,3,en,Mostly good,It's just okay. Does the job but nothing stands out. Considering alternatives for the price.,false
+REV-30319,P-1004,InsightDeck Dashboard,2026-06-06T00,4,fr,Conforme,Solide et fiable. Les intégrations ont fonctionné immédiatement. Je recommande pour petites équipes.,true
+REV-30320,P-1002,AcmeFlow CRM Add-on,2026-07-24T00,5,en,Works as expected,Solid and reliable. Integrations with our stack just worked. Would recommend for small teams.,false
+REV-30321,P-1002,AcmeFlow CRM Add-on,2026-06-09T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30322,P-1005,FormBuilder Pro,2026-07-06T00,5,fr,Conforme,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30323,P-1005,FormBuilder Pro,2026-06-04T00,3,fr,Mitigé,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,false
+REV-30324,P-1004,InsightDeck Dashboard,2026-08-01T00,5,en,Works as expected,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false
+REV-30325,P-1004,InsightDeck Dashboard,2026-06-24T00,5,fr,J'adore,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,false
+REV-30326,P-1001,AcmeFlow Project Manager,2026-07-04T00,5,fr,Meilleur achat,J'adore. Ça m'a fait gagner des heures chaque semaine. Les règles d'automatisation sont géniales.,true
+REV-30327,P-1001,AcmeFlow Project Manager,2026-06-17T00,3,fr,Plutôt bien,Fonctionne bien 80% du temps mais ralentissements aux heures de pointe. Reporting à enrichir.,true
+REV-30328,P-1006,InboxZero Assistant,2026-07-25T00,1,fr,Décevant,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,true
+REV-30329,P-1003,DataPipe Connector Pack,2026-06-10T00,1,en,Disappointing,Disappointed — key features promised on the roadmap are missing. Pricing feels high for what's included.,true
+REV-30330,P-1005,FormBuilder Pro,2026-06-11T00,1,fr,Plein de bugs,Énormément de bugs après la dernière mise à jour. Le tableau de bord ne charge plus. Frustrant.,false
+REV-30331,P-1005,FormBuilder Pro,2026-07-18T00,5,en,Great product,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,true
+REV-30332,P-1005,FormBuilder Pro,2026-06-22T00,4,fr,Super produit,Meilleur achat de l'année. ROI visible en un mois. Toute l'équipe a adopté l'outil.,true
+REV-30333,P-1005,FormBuilder Pro,2026-07-31T00,4,en,Works as expected,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,true
+REV-30334,P-1006,InboxZero Assistant,2026-07-21T00,1,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,false
+REV-30335,P-1006,InboxZero Assistant,2026-06-22T00,1,fr,Plein de bugs,Décevant — des fonctionnalités clés promises sont absentes. Prix élevé pour l'offre.,false
+REV-30336,P-1005,FormBuilder Pro,2026-07-22T00,4,en,Great product,I absolutely love it. Saved me hours every week. The automation rules are a game changer.,false
+REV-30337,P-1004,InsightDeck Dashboard,2026-07-31T00,2,en,Bugs everywhere,So many bugs after the last update. The dashboard doesn't load and support is slow to respond. Frustrating.,true
+REV-30338,P-1003,DataPipe Connector Pack,2026-07-24T00,5,en,Works as expected,The onboarding was smooth and the UI is intuitive. Support helped us migrate from our old tool.,true
+REV-30339,P-1002,AcmeFlow CRM Add-on,2026-06-04T00,5,fr,Conforme,L'intégration était fluide et l'interface intuitive. Le support nous a aidés à migrer.,true
+REV-30340,P-1002,AcmeFlow CRM Add-on,2026-07-26T00,5,en,Best purchase this year,Best purchase this year. ROI was visible within a month. The team adopted it immediately.,false

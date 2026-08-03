@@ -1,0 +1,521 @@
+ticket_id,customer_id,created_at,channel,language,subject,description,status,sla_breached
+TKT-20001,C-43702,2026-06-27T15:46:00,chat,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20002,C-43030,2026-07-30T17:28:00,in_app,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20003,C-25340,2026-06-28T10:53:00,phone,en,Wrong amount charged,I was charged 209 but my order total was 182. Please investigate and refund the difference.,open,false
+TKT-20004,C-28904,2026-06-09T14:03:00,chat,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20005,C-35590,2026-07-09T16:19:00,in_app,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20006,C-47719,2026-07-03T13:38:00,phone,en,General question,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20007,C-42816,2026-07-12T12:02:00,in_app,fr,Facture non reçue,J'ai été facturé 311€ alors que le total était de 52€. Merci d'examiner et de rembourser.,pending,false
+TKT-20008,C-33940,2026-06-26T16:03:00,chat,en,Package delayed,My order #88354 was supposed to arrive on 2026-07-20 but it's now 5 days late. Status still says 'in transit'.,open,false
+TKT-20009,C-28251,2026-06-04T10:48:00,in_app,en,Package delayed,My order #58897 was supposed to arrive on 2026-07-20 but it's now 8 days late. Status still says 'in transit'.,open,false
+TKT-20010,C-36945,2026-06-12T19:28:00,in_app,en,Invoice not received,I was charged 277 but my order total was 154. Please investigate and refund the difference.,pending,false
+TKT-20011,C-11538,2026-06-17T13:46:00,in_app,en,Invoice not received,I was charged 378 but my order total was 164. Please investigate and refund the difference.,open,false
+TKT-20012,C-12155,2026-06-11T08:32:00,chat,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20013,C-49163,2026-07-17T08:18:00,phone,fr,Édition en masse du stock,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20014,C-31310,2026-07-12T16:32:00,in_app,en,Dark mode please,Would love to see this added — it would save our team several hours per week. Happy to beta test.,open,false
+TKT-20015,C-38834,2026-06-10T10:23:00,phone,en,Invoice not received,I was charged 270 but my order total was 30. Please investigate and refund the difference.,solved,false
+TKT-20016,C-17644,2026-07-22T08:50:00,email,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20017,C-23844,2026-07-28T08:47:00,in_app,en,Bulk edit for inventory,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20018,C-29594,2026-07-26T12:36:00,phone,fr,Demande de partenariat,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20019,C-15203,2026-07-14T20:44:00,phone,en,Dark mode please,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20020,C-15276,2026-07-15T19:47:00,chat,en,Wrong item delivered,My order #78202 was supposed to arrive on 2026-07-20 but it's now 5 days late. Status still says 'in transit'.,pending,false
+TKT-20021,C-43181,2026-06-21T13:33:00,in_app,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,false
+TKT-20022,C-31631,2026-06-21T19:32:00,chat,en,Search returns error,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,open,false
+TKT-20023,C-17489,2026-06-10T12:11:00,in_app,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20024,C-29584,2026-08-01T13:21:00,in_app,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20025,C-20437,2026-06-03T19:21:00,email,en,Checkout button broken,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20026,C-40611,2026-06-09T18:47:00,phone,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,true
+TKT-20027,C-43654,2026-07-11T13:55:00,email,fr,Suivi bloqué,Ma commande #71323 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,open,false
+TKT-20028,C-49639,2026-07-20T15:47:00,phone,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20029,C-46123,2026-07-03T15:55:00,email,fr,Colis endommagé,Ma commande #55060 devait arriver le 2026-07-20 mais a maintenant 3 jours de retard. Toujours 'en transit'.,open,false
+TKT-20030,C-18050,2026-07-24T11:03:00,phone,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20031,C-22328,2026-07-23T15:32:00,in_app,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20032,C-32185,2026-07-24T08:37:00,chat,en,Invoice not received,I was charged 199 but my order total was 16. Please investigate and refund the difference.,open,false
+TKT-20033,C-22529,2026-07-26T17:05:00,in_app,en,Payment fails on mobile,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,true
+TKT-20034,C-15417,2026-06-20T10:38:00,phone,fr,Facturation erronée,J'ai été facturé 282€ alors que le total était de 257€. Merci d'examiner et de rembourser.,open,true
+TKT-20035,C-32891,2026-07-14T17:51:00,in_app,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20036,C-35751,2026-07-31T13:31:00,chat,fr,Retour,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20037,C-23758,2026-06-04T18:11:00,phone,en,Merge two accounts,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20038,C-46417,2026-07-16T10:39:00,phone,fr,Suivi bloqué,Ma commande #68294 devait arriver le 2026-07-20 mais a maintenant 3 jours de retard. Toujours 'en transit'.,open,false
+TKT-20039,C-24356,2026-06-12T13:50:00,email,en,SSO integration request,Would love to see this added — it would save our team several hours per week. Happy to beta test.,pending,false
+TKT-20040,C-42247,2026-07-15T16:35:00,chat,en,Subscription renewal issue,I was charged 268 but my order total was 98. Please investigate and refund the difference.,pending,false
+TKT-20041,C-34448,2026-06-08T19:10:00,in_app,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20042,C-23789,2026-07-04T09:35:00,chat,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20043,C-48832,2026-06-14T10:13:00,chat,en,Dark mode please,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20044,C-12752,2026-07-07T19:21:00,phone,fr,Colis en retard,Ma commande #95681 devait arriver le 2026-07-20 mais a maintenant 3 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20045,C-43883,2026-07-08T19:32:00,in_app,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,false
+TKT-20046,C-46876,2026-06-17T14:01:00,phone,en,General question,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20047,C-42920,2026-07-01T10:50:00,email,en,Damaged on arrival,My order #76342 was supposed to arrive on 2026-07-20 but it's now 2 days late. Status still says 'in transit'.,solved,false
+TKT-20048,C-13139,2026-07-13T17:07:00,chat,fr,Édition en masse du stock,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20049,C-15314,2026-06-03T15:36:00,in_app,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,pending,false
+TKT-20050,C-30235,2026-07-15T20:03:00,phone,fr,Mauvais article livré,Ma commande #81827 devait arriver le 2026-07-20 mais a maintenant 5 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20051,C-38142,2026-06-03T09:06:00,phone,en,Wrong amount charged,I was charged 74 but my order total was 162. Please investigate and refund the difference.,open,false
+TKT-20052,C-29235,2026-06-23T11:22:00,chat,en,Package delayed,My order #70545 was supposed to arrive on 2026-07-20 but it's now 5 days late. Status still says 'in transit'.,solved,false
+TKT-20053,C-21750,2026-07-11T09:08:00,phone,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20054,C-29299,2026-06-10T16:39:00,phone,en,Package delayed,My order #71898 was supposed to arrive on 2026-07-20 but it's now 8 days late. Status still says 'in transit'.,open,false
+TKT-20055,C-37912,2026-07-14T08:05:00,email,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20056,C-15215,2026-07-31T16:54:00,email,fr,Demande de partenariat,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,solved,false
+TKT-20057,C-17732,2026-06-16T10:49:00,phone,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20058,C-31636,2026-07-22T15:03:00,in_app,fr,Suivi bloqué,Ma commande #55980 devait arriver le 2026-07-20 mais a maintenant 7 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20059,C-47401,2026-07-26T19:25:00,email,en,Invoice not received,I was charged 357 but my order total was 21. Please investigate and refund the difference.,solved,false
+TKT-20060,C-12702,2026-06-11T12:10:00,in_app,fr,Demande de remboursement,J'ai été facturé 24€ alors que le total était de 153€. Merci d'examiner et de rembourser.,open,false
+TKT-20061,C-26329,2026-07-03T14:18:00,chat,en,Refund request,I was charged 84 but my order total was 249. Please investigate and refund the difference.,solved,true
+TKT-20062,C-15426,2026-07-13T15:17:00,in_app,en,Press contact,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20063,C-18107,2026-07-12T09:25:00,phone,en,Wrong item delivered,My order #80616 was supposed to arrive on 2026-07-20 but it's now 4 days late. Status still says 'in transit'.,pending,false
+TKT-20064,C-43001,2026-06-19T16:28:00,chat,en,Feedback,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20065,C-27422,2026-06-24T15:01:00,phone,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20066,C-22468,2026-06-15T15:26:00,email,fr,Demande SSO,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20067,C-19554,2026-06-17T09:50:00,email,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,solved,false
+TKT-20068,C-46828,2026-06-23T11:41:00,in_app,en,Subscription renewal issue,I was charged 252 but my order total was 124. Please investigate and refund the difference.,solved,true
+TKT-20069,C-49775,2026-07-20T14:01:00,email,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20070,C-19950,2026-06-10T18:16:00,chat,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20071,C-25077,2026-06-11T10:15:00,in_app,en,Wrong amount charged,I was charged 337 but my order total was 234. Please investigate and refund the difference.,solved,false
+TKT-20072,C-24320,2026-07-17T17:42:00,chat,en,Invoice not received,I was charged 383 but my order total was 295. Please investigate and refund the difference.,open,false
+TKT-20073,C-34460,2026-07-04T13:34:00,chat,fr,Retour,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20074,C-14829,2026-07-12T12:23:00,phone,fr,Colis en retard,Ma commande #94189 devait arriver le 2026-07-20 mais a maintenant 2 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20075,C-26370,2026-07-09T19:20:00,phone,en,Wrong amount charged,I was charged 197 but my order total was 154. Please investigate and refund the difference.,open,true
+TKT-20076,C-11228,2026-06-17T15:18:00,phone,fr,Colis endommagé,Ma commande #60639 devait arriver le 2026-07-20 mais a maintenant 8 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20077,C-41713,2026-07-24T09:21:00,chat,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20078,C-43417,2026-06-16T17:58:00,phone,en,SSO integration request,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20079,C-33707,2026-06-29T08:46:00,chat,fr,Colis en retard,Ma commande #76034 devait arriver le 2026-07-20 mais a maintenant 8 jours de retard. Toujours 'en transit'.,open,false
+TKT-20080,C-20547,2026-07-29T08:21:00,email,fr,Demande de partenariat,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20081,C-38333,2026-07-20T08:25:00,chat,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20082,C-48651,2026-07-19T08:56:00,email,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20083,C-39864,2026-07-11T19:37:00,email,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20084,C-24031,2026-07-03T15:03:00,phone,fr,Mauvais article livré,Ma commande #65544 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,open,false
+TKT-20085,C-40891,2026-06-30T20:34:00,in_app,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20086,C-18554,2026-07-19T13:08:00,email,en,Subscription renewal issue,I was charged 325 but my order total was 264. Please investigate and refund the difference.,solved,false
+TKT-20087,C-34773,2026-07-09T16:59:00,chat,fr,Facturation erronée,J'ai été facturé 232€ alors que le total était de 279€. Merci d'examiner et de rembourser.,solved,true
+TKT-20088,C-40463,2026-06-23T19:13:00,in_app,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20089,C-14330,2026-07-18T09:48:00,in_app,fr,Édition en masse du stock,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20090,C-16366,2026-06-25T17:50:00,chat,en,Subscription renewal issue,I was charged 349 but my order total was 95. Please investigate and refund the difference.,pending,false
+TKT-20091,C-40952,2026-07-14T16:12:00,email,fr,Demande SSO,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20092,C-16258,2026-06-05T15:22:00,in_app,fr,Colis en retard,Ma commande #68334 devait arriver le 2026-07-20 mais a maintenant 9 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20093,C-16255,2026-07-04T12:46:00,phone,en,Merge two accounts,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20094,C-41207,2026-07-26T12:57:00,chat,en,General question,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20095,C-44105,2026-07-21T12:03:00,chat,fr,Colis en retard,Ma commande #91214 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20096,C-13034,2026-06-22T15:51:00,phone,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20097,C-41408,2026-06-04T20:09:00,in_app,fr,Retour,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,solved,false
+TKT-20098,C-27485,2026-06-04T08:49:00,chat,en,App crashes on login,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,pending,false
+TKT-20099,C-21385,2026-07-18T18:11:00,chat,fr,Demande SSO,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20100,C-24336,2026-07-10T18:27:00,chat,en,Payment fails on mobile,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20101,C-44323,2026-07-13T08:32:00,in_app,en,Merge two accounts,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20102,C-22027,2026-08-01T18:37:00,in_app,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,true
+TKT-20103,C-28699,2026-06-22T13:34:00,email,en,App crashes on login,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,pending,false
+TKT-20104,C-29413,2026-07-28T14:26:00,phone,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20105,C-13032,2026-07-21T19:55:00,phone,en,Subscription renewal issue,I was charged 69 but my order total was 214. Please investigate and refund the difference.,pending,false
+TKT-20106,C-41370,2026-07-29T10:42:00,in_app,en,Checkout button broken,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,open,false
+TKT-20107,C-14805,2026-06-15T13:57:00,phone,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20108,C-14605,2026-07-01T10:14:00,chat,en,Invoice not received,I was charged 93 but my order total was 49. Please investigate and refund the difference.,open,false
+TKT-20109,C-10278,2026-07-11T12:59:00,phone,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20110,C-35758,2026-07-02T15:12:00,in_app,en,Tracking not updating,My order #51907 was supposed to arrive on 2026-07-20 but it's now 7 days late. Status still says 'in transit'.,open,false
+TKT-20111,C-27802,2026-07-20T08:39:00,in_app,fr,Mauvais article livré,Ma commande #77810 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20112,C-42886,2026-07-24T11:36:00,in_app,fr,Colis en retard,Ma commande #83445 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,open,false
+TKT-20113,C-41556,2026-07-08T19:21:00,in_app,en,Checkout button broken,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20114,C-13502,2026-07-23T16:06:00,in_app,fr,Problème d'abonnement,J'ai été facturé 104€ alors que le total était de 19€. Merci d'examiner et de rembourser.,solved,false
+TKT-20115,C-26751,2026-06-14T09:59:00,in_app,fr,Facture non reçue,J'ai été facturé 189€ alors que le total était de 30€. Merci d'examiner et de rembourser.,pending,false
+TKT-20116,C-10401,2026-07-08T15:49:00,in_app,en,SSO integration request,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20117,C-23053,2026-07-10T13:20:00,chat,fr,Contact presse,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,solved,false
+TKT-20118,C-46416,2026-06-19T18:33:00,email,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20119,C-25575,2026-06-18T08:36:00,chat,en,Checkout button broken,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20120,C-27642,2026-07-28T13:59:00,in_app,en,Wrong amount charged,I was charged 345 but my order total was 13. Please investigate and refund the difference.,solved,true
+TKT-20121,C-49319,2026-06-24T15:05:00,email,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20122,C-41428,2026-06-04T11:25:00,email,en,Subscription renewal issue,I was charged 376 but my order total was 264. Please investigate and refund the difference.,solved,true
+TKT-20123,C-41056,2026-07-22T12:23:00,phone,fr,Demande SSO,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20124,C-49966,2026-07-16T09:45:00,chat,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20125,C-12359,2026-07-22T18:34:00,email,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20126,C-38204,2026-06-16T14:34:00,email,fr,Problème d'abonnement,J'ai été facturé 78€ alors que le total était de 194€. Merci d'examiner et de rembourser.,solved,false
+TKT-20127,C-33628,2026-07-12T08:17:00,phone,fr,Problème d'abonnement,J'ai été facturé 125€ alors que le total était de 144€. Merci d'examiner et de rembourser.,open,false
+TKT-20128,C-48880,2026-07-16T13:47:00,phone,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20129,C-45169,2026-06-13T18:41:00,in_app,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20130,C-12609,2026-07-11T14:48:00,email,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20131,C-13579,2026-07-11T10:32:00,in_app,fr,Problème d'abonnement,J'ai été facturé 107€ alors que le total était de 210€. Merci d'examiner et de rembourser.,pending,false
+TKT-20132,C-43541,2026-07-30T16:23:00,email,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20133,C-11907,2026-06-12T13:06:00,phone,en,Tracking not updating,My order #89502 was supposed to arrive on 2026-07-20 but it's now 9 days late. Status still says 'in transit'.,pending,false
+TKT-20134,C-28371,2026-07-14T13:14:00,in_app,en,Refund request,I was charged 370 but my order total was 199. Please investigate and refund the difference.,open,false
+TKT-20135,C-15241,2026-07-28T09:04:00,email,en,Tracking not updating,My order #69206 was supposed to arrive on 2026-07-20 but it's now 8 days late. Status still says 'in transit'.,solved,false
+TKT-20136,C-28084,2026-07-31T19:15:00,email,fr,Colis endommagé,Ma commande #62107 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,open,false
+TKT-20137,C-32885,2026-06-27T13:07:00,phone,en,Wrong item delivered,My order #89511 was supposed to arrive on 2026-07-20 but it's now 5 days late. Status still says 'in transit'.,open,false
+TKT-20138,C-42302,2026-06-27T09:39:00,chat,fr,Colis endommagé,Ma commande #72892 devait arriver le 2026-07-20 mais a maintenant 8 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20139,C-32207,2026-07-15T18:46:00,phone,fr,Édition en masse du stock,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20140,C-43569,2026-06-06T11:08:00,phone,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20141,C-38537,2026-07-09T09:57:00,phone,en,Search returns error,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,true
+TKT-20142,C-11575,2026-07-03T17:31:00,chat,fr,Facture non reçue,J'ai été facturé 303€ alors que le total était de 79€. Merci d'examiner et de rembourser.,solved,true
+TKT-20143,C-22487,2026-07-10T08:05:00,phone,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,false
+TKT-20144,C-16657,2026-06-06T08:11:00,email,en,Tracking not updating,My order #85372 was supposed to arrive on 2026-07-20 but it's now 8 days late. Status still says 'in transit'.,solved,false
+TKT-20145,C-44120,2026-07-12T14:55:00,chat,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20146,C-27256,2026-07-16T16:30:00,email,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,pending,false
+TKT-20147,C-44263,2026-07-16T16:47:00,email,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20148,C-28654,2026-07-20T14:50:00,phone,fr,Problème d'abonnement,J'ai été facturé 175€ alors que le total était de 260€. Merci d'examiner et de rembourser.,open,false
+TKT-20149,C-20125,2026-07-29T12:29:00,in_app,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20150,C-21636,2026-06-03T13:37:00,chat,fr,Contact presse,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20151,C-11633,2026-07-28T11:45:00,phone,fr,Contact presse,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20152,C-15617,2026-06-05T11:16:00,chat,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20153,C-33934,2026-06-08T13:10:00,phone,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,open,false
+TKT-20154,C-48382,2026-06-15T19:11:00,email,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20155,C-19169,2026-06-06T13:41:00,phone,en,Invoice not received,I was charged 348 but my order total was 245. Please investigate and refund the difference.,open,false
+TKT-20156,C-33337,2026-07-16T08:35:00,chat,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20157,C-25544,2026-07-25T08:30:00,chat,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20158,C-21582,2026-07-28T19:47:00,in_app,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20159,C-14060,2026-07-16T12:54:00,in_app,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,true
+TKT-20160,C-12702,2026-06-17T17:06:00,phone,en,Wrong amount charged,I was charged 64 but my order total was 187. Please investigate and refund the difference.,open,false
+TKT-20161,C-22847,2026-06-12T17:51:00,chat,fr,Édition en masse du stock,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20162,C-12568,2026-06-08T20:44:00,in_app,fr,Demande de partenariat,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20163,C-40212,2026-06-29T11:56:00,chat,en,Feedback,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20164,C-21871,2026-07-20T16:10:00,in_app,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,pending,false
+TKT-20165,C-39719,2026-07-11T17:05:00,in_app,en,Damaged on arrival,My order #56239 was supposed to arrive on 2026-07-20 but it's now 8 days late. Status still says 'in transit'.,pending,false
+TKT-20166,C-24928,2026-07-16T09:04:00,email,en,Wrong item delivered,My order #57091 was supposed to arrive on 2026-07-20 but it's now 7 days late. Status still says 'in transit'.,open,false
+TKT-20167,C-18997,2026-06-22T20:50:00,in_app,fr,Facturation erronée,J'ai été facturé 75€ alors que le total était de 139€. Merci d'examiner et de rembourser.,pending,false
+TKT-20168,C-22911,2026-07-25T14:24:00,email,fr,Colis endommagé,Ma commande #73678 devait arriver le 2026-07-20 mais a maintenant 6 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20169,C-21291,2026-07-26T09:50:00,in_app,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20170,C-17356,2026-07-28T12:43:00,phone,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,pending,false
+TKT-20171,C-45159,2026-07-01T12:22:00,in_app,fr,Problème d'abonnement,J'ai été facturé 121€ alors que le total était de 134€. Merci d'examiner et de rembourser.,pending,false
+TKT-20172,C-44545,2026-06-13T09:40:00,phone,en,Feedback,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20173,C-13567,2026-07-01T10:55:00,email,fr,Mauvais article livré,Ma commande #78307 devait arriver le 2026-07-20 mais a maintenant 5 jours de retard. Toujours 'en transit'.,open,false
+TKT-20174,C-19557,2026-07-03T18:34:00,phone,en,Refund request,I was charged 202 but my order total was 42. Please investigate and refund the difference.,open,false
+TKT-20175,C-18810,2026-06-13T09:31:00,email,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20176,C-29209,2026-06-19T10:32:00,in_app,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,true
+TKT-20177,C-10783,2026-06-04T10:49:00,email,fr,Problème d'abonnement,J'ai été facturé 81€ alors que le total était de 99€. Merci d'examiner et de rembourser.,solved,false
+TKT-20178,C-32229,2026-06-20T12:17:00,email,en,App crashes on login,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,open,true
+TKT-20179,C-12976,2026-07-23T16:00:00,in_app,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20180,C-20600,2026-06-06T17:44:00,chat,en,Invoice not received,I was charged 314 but my order total was 139. Please investigate and refund the difference.,open,false
+TKT-20181,C-24145,2026-07-06T10:49:00,chat,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20182,C-12786,2026-06-25T14:03:00,phone,en,Wrong amount charged,I was charged 212 but my order total was 97. Please investigate and refund the difference.,pending,false
+TKT-20183,C-20983,2026-07-13T08:19:00,phone,en,Wrong amount charged,I was charged 134 but my order total was 293. Please investigate and refund the difference.,open,true
+TKT-20184,C-34178,2026-07-23T17:46:00,in_app,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,open,false
+TKT-20185,C-45103,2026-06-17T16:45:00,in_app,en,SSO integration request,Would love to see this added — it would save our team several hours per week. Happy to beta test.,pending,false
+TKT-20186,C-32597,2026-07-28T20:01:00,email,fr,Facturation erronée,J'ai été facturé 124€ alors que le total était de 119€. Merci d'examiner et de rembourser.,solved,false
+TKT-20187,C-26000,2026-06-05T16:06:00,in_app,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,true
+TKT-20188,C-47614,2026-06-13T09:50:00,phone,fr,Facture non reçue,J'ai été facturé 85€ alors que le total était de 218€. Merci d'examiner et de rembourser.,open,true
+TKT-20189,C-34646,2026-06-13T17:06:00,phone,en,Wrong item delivered,My order #84045 was supposed to arrive on 2026-07-20 but it's now 3 days late. Status still says 'in transit'.,solved,false
+TKT-20190,C-43685,2026-08-01T16:17:00,phone,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20191,C-12934,2026-07-28T17:55:00,chat,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20192,C-15664,2026-07-27T15:13:00,phone,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20193,C-11750,2026-06-25T16:41:00,email,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,true
+TKT-20194,C-25054,2026-07-13T16:11:00,chat,fr,Problème d'abonnement,J'ai été facturé 241€ alors que le total était de 249€. Merci d'examiner et de rembourser.,pending,false
+TKT-20195,C-22446,2026-07-29T16:55:00,phone,fr,Demande SSO,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20196,C-22131,2026-07-17T11:41:00,in_app,en,Damaged on arrival,My order #85440 was supposed to arrive on 2026-07-20 but it's now 9 days late. Status still says 'in transit'.,pending,false
+TKT-20197,C-26602,2026-07-21T09:48:00,chat,en,Feedback,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20198,C-25611,2026-06-14T09:06:00,phone,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20199,C-46821,2026-07-11T15:42:00,in_app,en,Search returns error,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,open,true
+TKT-20200,C-14879,2026-07-10T08:03:00,email,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20201,C-28997,2026-07-30T12:40:00,phone,en,Package delayed,My order #56246 was supposed to arrive on 2026-07-20 but it's now 4 days late. Status still says 'in transit'.,solved,false
+TKT-20202,C-23174,2026-07-23T15:47:00,chat,en,Subscription renewal issue,I was charged 136 but my order total was 184. Please investigate and refund the difference.,solved,false
+TKT-20203,C-44842,2026-06-29T19:47:00,in_app,en,Invoice not received,I was charged 289 but my order total was 116. Please investigate and refund the difference.,solved,false
+TKT-20204,C-25501,2026-06-26T09:52:00,email,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20205,C-13282,2026-06-15T20:12:00,chat,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20206,C-18252,2026-07-25T12:14:00,in_app,en,Tracking not updating,My order #86263 was supposed to arrive on 2026-07-20 but it's now 4 days late. Status still says 'in transit'.,solved,false
+TKT-20207,C-33585,2026-07-17T18:18:00,in_app,en,Press contact,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20208,C-32391,2026-06-18T09:40:00,phone,en,Dark mode please,Would love to see this added — it would save our team several hours per week. Happy to beta test.,open,false
+TKT-20209,C-22925,2026-06-12T15:13:00,chat,fr,Suivi bloqué,Ma commande #91669 devait arriver le 2026-07-20 mais a maintenant 5 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20210,C-15929,2026-07-14T14:07:00,chat,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20211,C-46596,2026-07-21T13:01:00,in_app,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20212,C-20660,2026-07-12T15:35:00,phone,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20213,C-41831,2026-06-06T18:46:00,in_app,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20214,C-33967,2026-07-05T12:08:00,email,en,General question,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20215,C-41258,2026-07-09T14:56:00,in_app,en,Search returns error,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20216,C-38241,2026-07-12T15:02:00,phone,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20217,C-19910,2026-06-18T20:59:00,chat,fr,Édition en masse du stock,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20218,C-16607,2026-06-13T16:39:00,in_app,en,Invoice not received,I was charged 228 but my order total was 220. Please investigate and refund the difference.,solved,false
+TKT-20219,C-43775,2026-07-22T17:23:00,chat,en,Package delayed,My order #72495 was supposed to arrive on 2026-07-20 but it's now 7 days late. Status still says 'in transit'.,solved,false
+TKT-20220,C-35032,2026-07-13T14:19:00,chat,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20221,C-29306,2026-06-23T12:41:00,chat,en,Wrong item delivered,My order #83203 was supposed to arrive on 2026-07-20 but it's now 7 days late. Status still says 'in transit'.,solved,false
+TKT-20222,C-41738,2026-07-21T20:55:00,email,en,Merge two accounts,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20223,C-41812,2026-07-26T17:06:00,email,en,Search returns error,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20224,C-32057,2026-06-28T20:15:00,email,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20225,C-38542,2026-07-09T11:45:00,phone,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,pending,false
+TKT-20226,C-12966,2026-07-17T09:39:00,chat,en,Wrong amount charged,I was charged 342 but my order total was 22. Please investigate and refund the difference.,open,true
+TKT-20227,C-29471,2026-06-11T12:58:00,in_app,fr,Contact presse,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20228,C-19850,2026-07-02T10:19:00,in_app,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20229,C-23221,2026-07-08T10:51:00,email,fr,Colis endommagé,Ma commande #70890 devait arriver le 2026-07-20 mais a maintenant 2 jours de retard. Toujours 'en transit'.,open,false
+TKT-20230,C-21291,2026-08-01T13:21:00,chat,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20231,C-16033,2026-07-17T08:07:00,email,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20232,C-44098,2026-06-25T09:23:00,in_app,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20233,C-40620,2026-07-21T18:42:00,chat,en,Payment fails on mobile,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,open,false
+TKT-20234,C-32935,2026-06-05T20:25:00,phone,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20235,C-18622,2026-07-09T15:16:00,phone,en,Press contact,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20236,C-39254,2026-07-08T10:35:00,email,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20237,C-13534,2026-07-04T10:58:00,in_app,fr,Retour,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,solved,false
+TKT-20238,C-19436,2026-07-07T14:14:00,phone,en,Subscription renewal issue,I was charged 257 but my order total was 190. Please investigate and refund the difference.,pending,false
+TKT-20239,C-13023,2026-06-13T12:40:00,phone,fr,Suivi bloqué,Ma commande #58132 devait arriver le 2026-07-20 mais a maintenant 3 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20240,C-17635,2026-07-04T08:18:00,email,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20241,C-18010,2026-06-14T19:49:00,phone,en,Wrong item delivered,My order #75821 was supposed to arrive on 2026-07-20 but it's now 6 days late. Status still says 'in transit'.,open,false
+TKT-20242,C-35849,2026-07-16T17:33:00,email,fr,Colis en retard,Ma commande #79283 devait arriver le 2026-07-20 mais a maintenant 7 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20243,C-48370,2026-06-05T13:30:00,chat,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20244,C-14311,2026-06-08T14:03:00,in_app,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,false
+TKT-20245,C-41044,2026-06-05T08:39:00,in_app,en,Press contact,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20246,C-11088,2026-06-08T12:23:00,phone,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20247,C-32256,2026-06-09T11:33:00,phone,en,Tracking not updating,My order #68089 was supposed to arrive on 2026-07-20 but it's now 2 days late. Status still says 'in transit'.,solved,false
+TKT-20248,C-20104,2026-07-31T18:08:00,chat,en,Merge two accounts,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20249,C-30534,2026-07-14T17:32:00,in_app,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20250,C-10307,2026-07-21T08:00:00,phone,fr,Demande de remboursement,J'ai été facturé 382€ alors que le total était de 26€. Merci d'examiner et de rembourser.,pending,false
+TKT-20251,C-14385,2026-07-25T18:06:00,email,fr,Colis en retard,Ma commande #59884 devait arriver le 2026-07-20 mais a maintenant 2 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20252,C-35639,2026-07-20T13:23:00,in_app,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20253,C-41360,2026-06-03T19:47:00,email,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20254,C-46892,2026-06-09T17:42:00,phone,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20255,C-48810,2026-06-26T17:57:00,in_app,en,Press contact,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20256,C-31000,2026-07-08T14:40:00,email,en,Invoice not received,I was charged 377 but my order total was 71. Please investigate and refund the difference.,pending,false
+TKT-20257,C-28183,2026-07-01T09:25:00,in_app,en,Refund request,I was charged 128 but my order total was 11. Please investigate and refund the difference.,open,true
+TKT-20258,C-11709,2026-07-25T08:12:00,email,en,Subscription renewal issue,I was charged 69 but my order total was 89. Please investigate and refund the difference.,solved,false
+TKT-20259,C-26428,2026-07-04T14:02:00,email,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,true
+TKT-20260,C-32344,2026-07-10T20:23:00,chat,fr,Suivi bloqué,Ma commande #85632 devait arriver le 2026-07-20 mais a maintenant 9 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20261,C-25097,2026-07-03T08:34:00,phone,en,Subscription renewal issue,I was charged 89 but my order total was 44. Please investigate and refund the difference.,pending,true
+TKT-20262,C-36285,2026-06-08T15:02:00,in_app,en,Invoice not received,I was charged 367 but my order total was 161. Please investigate and refund the difference.,open,false
+TKT-20263,C-15998,2026-06-15T10:26:00,chat,fr,Colis en retard,Ma commande #74630 devait arriver le 2026-07-20 mais a maintenant 2 jours de retard. Toujours 'en transit'.,open,false
+TKT-20264,C-24819,2026-08-01T16:10:00,in_app,fr,Demande de remboursement,J'ai été facturé 311€ alors que le total était de 187€. Merci d'examiner et de rembourser.,pending,false
+TKT-20265,C-37529,2026-07-10T16:36:00,chat,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20266,C-44245,2026-06-17T14:00:00,chat,fr,Colis en retard,Ma commande #59176 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20267,C-41467,2026-06-11T18:43:00,phone,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20268,C-25906,2026-07-07T19:11:00,email,en,Feedback,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20269,C-32780,2026-06-06T14:40:00,chat,fr,Problème d'abonnement,J'ai été facturé 310€ alors que le total était de 58€. Merci d'examiner et de rembourser.,open,false
+TKT-20270,C-38166,2026-07-26T14:34:00,phone,fr,Demande de remboursement,J'ai été facturé 318€ alors que le total était de 203€. Merci d'examiner et de rembourser.,open,false
+TKT-20271,C-37346,2026-06-08T18:54:00,email,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20272,C-14126,2026-07-02T15:09:00,chat,en,Checkout button broken,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,open,false
+TKT-20273,C-35092,2026-06-30T12:34:00,phone,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20274,C-14232,2026-06-16T11:16:00,phone,en,Press contact,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20275,C-28210,2026-07-27T08:04:00,chat,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,pending,false
+TKT-20276,C-31778,2026-06-06T20:53:00,phone,fr,Mauvais article livré,Ma commande #74024 devait arriver le 2026-07-20 mais a maintenant 6 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20277,C-27886,2026-07-11T11:58:00,in_app,fr,Facture non reçue,J'ai été facturé 230€ alors que le total était de 137€. Merci d'examiner et de rembourser.,pending,false
+TKT-20278,C-45986,2026-07-26T12:37:00,chat,en,Damaged on arrival,My order #89430 was supposed to arrive on 2026-07-20 but it's now 3 days late. Status still says 'in transit'.,open,false
+TKT-20279,C-17407,2026-06-14T15:55:00,in_app,en,Damaged on arrival,My order #55044 was supposed to arrive on 2026-07-20 but it's now 5 days late. Status still says 'in transit'.,solved,false
+TKT-20280,C-36723,2026-06-29T17:03:00,phone,en,Press contact,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20281,C-43968,2026-06-19T14:40:00,chat,en,Invoice not received,I was charged 317 but my order total was 294. Please investigate and refund the difference.,open,false
+TKT-20282,C-35740,2026-06-07T17:08:00,chat,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20283,C-10284,2026-06-12T16:14:00,email,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,pending,false
+TKT-20284,C-37650,2026-06-23T17:41:00,email,en,Package delayed,My order #88198 was supposed to arrive on 2026-07-20 but it's now 7 days late. Status still says 'in transit'.,solved,false
+TKT-20285,C-11779,2026-06-07T10:53:00,chat,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20286,C-36398,2026-06-24T14:30:00,phone,fr,Problème d'abonnement,J'ai été facturé 131€ alors que le total était de 229€. Merci d'examiner et de rembourser.,pending,false
+TKT-20287,C-29858,2026-07-14T13:00:00,in_app,en,Tracking not updating,My order #60675 was supposed to arrive on 2026-07-20 but it's now 9 days late. Status still says 'in transit'.,pending,false
+TKT-20288,C-49604,2026-07-22T10:42:00,in_app,fr,Colis endommagé,Ma commande #57325 devait arriver le 2026-07-20 mais a maintenant 8 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20289,C-28391,2026-07-10T09:56:00,in_app,fr,Colis en retard,Ma commande #84299 devait arriver le 2026-07-20 mais a maintenant 6 jours de retard. Toujours 'en transit'.,open,false
+TKT-20290,C-47036,2026-06-17T18:43:00,in_app,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,true
+TKT-20291,C-30833,2026-06-03T17:53:00,in_app,en,Invoice not received,I was charged 153 but my order total was 147. Please investigate and refund the difference.,open,true
+TKT-20292,C-40352,2026-07-03T12:56:00,in_app,fr,Demande de remboursement,J'ai été facturé 121€ alors que le total était de 91€. Merci d'examiner et de rembourser.,solved,false
+TKT-20293,C-13103,2026-07-14T12:36:00,chat,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20294,C-29801,2026-07-07T20:03:00,phone,en,Tracking not updating,My order #91088 was supposed to arrive on 2026-07-20 but it's now 4 days late. Status still says 'in transit'.,pending,false
+TKT-20295,C-43505,2026-06-22T20:37:00,phone,fr,Mauvais article livré,Ma commande #57134 devait arriver le 2026-07-20 mais a maintenant 8 jours de retard. Toujours 'en transit'.,open,false
+TKT-20296,C-49778,2026-07-20T10:51:00,in_app,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,true
+TKT-20297,C-33625,2026-06-12T12:33:00,chat,en,Search returns error,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,open,false
+TKT-20298,C-10497,2026-06-19T08:58:00,email,fr,Colis endommagé,Ma commande #63542 devait arriver le 2026-07-20 mais a maintenant 2 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20299,C-37082,2026-07-11T20:11:00,phone,en,Damaged on arrival,My order #82666 was supposed to arrive on 2026-07-20 but it's now 4 days late. Status still says 'in transit'.,pending,false
+TKT-20300,C-25155,2026-06-26T11:41:00,phone,fr,Contact presse,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20301,C-42434,2026-07-03T13:52:00,phone,fr,Problème d'abonnement,J'ai été facturé 328€ alors que le total était de 21€. Merci d'examiner et de rembourser.,open,false
+TKT-20302,C-25096,2026-07-05T18:23:00,in_app,fr,Suivi bloqué,Ma commande #67719 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20303,C-49146,2026-07-04T11:21:00,phone,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20304,C-35795,2026-07-10T20:51:00,phone,fr,Facturation erronée,J'ai été facturé 46€ alors que le total était de 50€. Merci d'examiner et de rembourser.,solved,false
+TKT-20305,C-47574,2026-07-29T19:23:00,chat,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20306,C-11260,2026-07-22T08:50:00,chat,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20307,C-30487,2026-06-07T10:20:00,in_app,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20308,C-17902,2026-06-14T19:05:00,email,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20309,C-48919,2026-07-15T15:18:00,chat,fr,Colis endommagé,Ma commande #66837 devait arriver le 2026-07-20 mais a maintenant 9 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20310,C-47931,2026-07-03T11:24:00,chat,fr,Contact presse,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20311,C-47755,2026-07-06T14:25:00,in_app,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20312,C-45623,2026-07-30T15:53:00,email,fr,Colis en retard,Ma commande #62916 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20313,C-30370,2026-07-13T11:01:00,in_app,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,false
+TKT-20314,C-26149,2026-06-08T14:04:00,phone,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20315,C-42325,2026-06-15T13:22:00,in_app,en,Wrong amount charged,I was charged 69 but my order total was 21. Please investigate and refund the difference.,pending,false
+TKT-20316,C-30216,2026-07-15T16:44:00,phone,en,Wrong amount charged,I was charged 21 but my order total was 199. Please investigate and refund the difference.,solved,false
+TKT-20317,C-43922,2026-07-03T17:28:00,email,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20318,C-35313,2026-07-21T20:15:00,email,en,App crashes on login,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,true
+TKT-20319,C-26933,2026-06-06T11:31:00,email,en,Search returns error,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20320,C-36401,2026-07-09T17:12:00,in_app,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20321,C-15927,2026-07-11T16:28:00,phone,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20322,C-18378,2026-06-16T09:21:00,email,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,pending,false
+TKT-20323,C-31362,2026-07-10T09:45:00,email,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20324,C-43929,2026-07-24T16:21:00,email,fr,Suivi bloqué,Ma commande #94504 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,open,false
+TKT-20325,C-27279,2026-07-11T18:32:00,chat,fr,Facturation erronée,J'ai été facturé 274€ alors que le total était de 61€. Merci d'examiner et de rembourser.,open,false
+TKT-20326,C-18269,2026-08-01T15:07:00,chat,en,Feedback,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20327,C-49714,2026-07-06T16:30:00,phone,en,App crashes on login,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20328,C-32050,2026-06-30T19:29:00,chat,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20329,C-43515,2026-07-15T18:44:00,phone,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20330,C-15052,2026-06-12T12:31:00,in_app,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20331,C-22855,2026-06-09T14:42:00,in_app,en,Damaged on arrival,My order #57816 was supposed to arrive on 2026-07-20 but it's now 9 days late. Status still says 'in transit'.,open,false
+TKT-20332,C-40902,2026-07-09T17:51:00,in_app,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20333,C-42141,2026-07-31T19:36:00,chat,en,Wrong item delivered,My order #76698 was supposed to arrive on 2026-07-20 but it's now 4 days late. Status still says 'in transit'.,pending,false
+TKT-20334,C-24097,2026-06-06T11:32:00,chat,en,Refund request,I was charged 270 but my order total was 71. Please investigate and refund the difference.,open,true
+TKT-20335,C-38057,2026-06-14T15:52:00,phone,fr,Problème d'abonnement,J'ai été facturé 350€ alors que le total était de 139€. Merci d'examiner et de rembourser.,solved,false
+TKT-20336,C-24350,2026-07-04T14:25:00,phone,fr,Édition en masse du stock,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20337,C-41988,2026-06-12T18:13:00,phone,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,pending,false
+TKT-20338,C-27173,2026-07-20T19:49:00,in_app,fr,Mauvais article livré,Ma commande #62553 devait arriver le 2026-07-20 mais a maintenant 8 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20339,C-28195,2026-06-29T14:06:00,phone,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20340,C-32804,2026-07-12T10:19:00,email,en,Invoice not received,I was charged 392 but my order total was 231. Please investigate and refund the difference.,pending,false
+TKT-20341,C-19683,2026-06-12T20:59:00,in_app,en,Payment fails on mobile,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20342,C-28921,2026-07-31T10:42:00,email,en,Merge two accounts,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20343,C-25391,2026-07-11T16:29:00,email,en,Package delayed,My order #90540 was supposed to arrive on 2026-07-20 but it's now 2 days late. Status still says 'in transit'.,open,false
+TKT-20344,C-49647,2026-06-18T18:50:00,chat,fr,Demande de remboursement,J'ai été facturé 232€ alors que le total était de 293€. Merci d'examiner et de rembourser.,pending,false
+TKT-20345,C-40248,2026-06-08T19:49:00,chat,fr,Suivi bloqué,Ma commande #80820 devait arriver le 2026-07-20 mais a maintenant 2 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20346,C-17907,2026-06-16T14:17:00,in_app,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20347,C-13161,2026-06-08T18:10:00,chat,en,Checkout button broken,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,false
+TKT-20348,C-49807,2026-08-01T14:25:00,email,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20349,C-32799,2026-06-14T19:22:00,in_app,en,Invoice not received,I was charged 114 but my order total was 280. Please investigate and refund the difference.,open,true
+TKT-20350,C-26345,2026-06-24T10:35:00,chat,fr,Demande de partenariat,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20351,C-13566,2026-07-03T17:24:00,chat,fr,Demande de remboursement,J'ai été facturé 365€ alors que le total était de 258€. Merci d'examiner et de rembourser.,solved,false
+TKT-20352,C-35793,2026-06-04T12:42:00,chat,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,pending,false
+TKT-20353,C-23921,2026-06-29T13:10:00,chat,en,Wrong amount charged,I was charged 349 but my order total was 183. Please investigate and refund the difference.,open,false
+TKT-20354,C-36467,2026-07-11T16:56:00,in_app,en,Wrong amount charged,I was charged 234 but my order total was 173. Please investigate and refund the difference.,solved,false
+TKT-20355,C-48975,2026-06-20T08:46:00,phone,en,Wrong amount charged,I was charged 68 but my order total was 87. Please investigate and refund the difference.,solved,true
+TKT-20356,C-48307,2026-06-22T15:26:00,chat,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20357,C-11644,2026-07-16T10:22:00,phone,en,Invoice not received,I was charged 104 but my order total was 70. Please investigate and refund the difference.,pending,false
+TKT-20358,C-35186,2026-07-22T11:41:00,phone,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20359,C-44244,2026-07-05T09:16:00,email,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20360,C-27554,2026-06-19T15:19:00,email,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20361,C-15100,2026-06-18T13:47:00,email,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,pending,false
+TKT-20362,C-46930,2026-06-13T16:23:00,chat,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,open,false
+TKT-20363,C-41546,2026-07-12T20:16:00,email,fr,Mauvais article livré,Ma commande #54909 devait arriver le 2026-07-20 mais a maintenant 3 jours de retard. Toujours 'en transit'.,open,false
+TKT-20364,C-48726,2026-06-17T18:05:00,email,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20365,C-32657,2026-07-04T16:23:00,phone,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20366,C-20045,2026-08-01T20:14:00,email,fr,Facturation erronée,J'ai été facturé 58€ alors que le total était de 233€. Merci d'examiner et de rembourser.,solved,false
+TKT-20367,C-34382,2026-07-01T11:37:00,in_app,fr,Retour,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20368,C-26266,2026-06-11T14:26:00,email,en,Feedback,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20369,C-42490,2026-06-07T15:30:00,chat,fr,Mauvais article livré,Ma commande #65343 devait arriver le 2026-07-20 mais a maintenant 5 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20370,C-41014,2026-06-28T16:05:00,in_app,fr,Mauvais article livré,Ma commande #96061 devait arriver le 2026-07-20 mais a maintenant 6 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20371,C-34766,2026-06-27T14:32:00,phone,en,Merge two accounts,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20372,C-45086,2026-07-29T14:13:00,phone,en,Bulk edit for inventory,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20373,C-32801,2026-07-02T17:59:00,email,en,Tracking not updating,My order #93452 was supposed to arrive on 2026-07-20 but it's now 3 days late. Status still says 'in transit'.,solved,false
+TKT-20374,C-21845,2026-06-23T14:44:00,chat,fr,Suivi bloqué,Ma commande #53472 devait arriver le 2026-07-20 mais a maintenant 5 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20375,C-22656,2026-07-03T17:18:00,chat,en,Refund request,I was charged 210 but my order total was 256. Please investigate and refund the difference.,solved,false
+TKT-20376,C-40562,2026-07-14T10:13:00,in_app,fr,Colis endommagé,Ma commande #79813 devait arriver le 2026-07-20 mais a maintenant 2 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20377,C-36544,2026-06-20T12:40:00,chat,fr,Colis en retard,Ma commande #66405 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20378,C-49668,2026-06-20T16:50:00,in_app,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20379,C-14335,2026-07-05T10:58:00,email,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20380,C-28400,2026-07-10T17:27:00,email,en,Refund request,I was charged 36 but my order total was 226. Please investigate and refund the difference.,pending,true
+TKT-20381,C-42509,2026-07-14T10:10:00,chat,fr,Facture non reçue,J'ai été facturé 178€ alors que le total était de 250€. Merci d'examiner et de rembourser.,solved,false
+TKT-20382,C-23240,2026-07-18T17:52:00,email,fr,Ajouter l'export CSV,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,solved,false
+TKT-20383,C-34403,2026-07-16T15:30:00,email,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,true
+TKT-20384,C-40990,2026-06-12T12:57:00,phone,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20385,C-29065,2026-06-25T15:16:00,in_app,fr,Suivi bloqué,Ma commande #99778 devait arriver le 2026-07-20 mais a maintenant 9 jours de retard. Toujours 'en transit'.,open,false
+TKT-20386,C-14554,2026-06-24T14:08:00,phone,fr,Demande de remboursement,J'ai été facturé 194€ alors que le total était de 194€. Merci d'examiner et de rembourser.,pending,true
+TKT-20387,C-32599,2026-06-19T11:45:00,phone,fr,Colis en retard,Ma commande #92409 devait arriver le 2026-07-20 mais a maintenant 8 jours de retard. Toujours 'en transit'.,open,false
+TKT-20388,C-18760,2026-08-01T10:03:00,in_app,en,Invoice not received,I was charged 327 but my order total was 251. Please investigate and refund the difference.,pending,false
+TKT-20389,C-44088,2026-06-12T12:19:00,chat,en,Damaged on arrival,My order #55757 was supposed to arrive on 2026-07-20 but it's now 6 days late. Status still says 'in transit'.,solved,false
+TKT-20390,C-14387,2026-07-08T17:25:00,chat,fr,Suivi bloqué,Ma commande #64152 devait arriver le 2026-07-20 mais a maintenant 2 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20391,C-40955,2026-07-02T19:13:00,chat,fr,Suivi bloqué,Ma commande #73727 devait arriver le 2026-07-20 mais a maintenant 3 jours de retard. Toujours 'en transit'.,open,false
+TKT-20392,C-38297,2026-06-24T14:21:00,phone,en,Invoice not received,I was charged 123 but my order total was 289. Please investigate and refund the difference.,solved,false
+TKT-20393,C-20050,2026-07-06T15:17:00,in_app,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20394,C-32925,2026-07-28T16:04:00,email,en,Wrong item delivered,My order #91751 was supposed to arrive on 2026-07-20 but it's now 3 days late. Status still says 'in transit'.,solved,false
+TKT-20395,C-24764,2026-07-13T10:30:00,phone,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20396,C-24881,2026-07-26T14:54:00,chat,en,Payment fails on mobile,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,pending,false
+TKT-20397,C-34307,2026-06-13T14:38:00,chat,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20398,C-21133,2026-07-11T12:40:00,chat,en,App crashes on login,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,pending,false
+TKT-20399,C-22138,2026-07-23T09:37:00,phone,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20400,C-28716,2026-07-02T12:49:00,in_app,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20401,C-19165,2026-07-20T09:06:00,email,fr,Demande SSO,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,pending,false
+TKT-20402,C-18972,2026-07-11T10:29:00,chat,en,Wrong amount charged,I was charged 50 but my order total was 47. Please investigate and refund the difference.,solved,true
+TKT-20403,C-34008,2026-06-25T08:31:00,email,en,Bulk edit for inventory,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20404,C-28366,2026-06-19T15:06:00,email,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20405,C-30129,2026-06-28T15:53:00,phone,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20406,C-46401,2026-07-12T09:07:00,chat,en,Subscription renewal issue,I was charged 214 but my order total was 203. Please investigate and refund the difference.,solved,true
+TKT-20407,C-41489,2026-06-16T19:26:00,in_app,en,Dark mode please,Would love to see this added — it would save our team several hours per week. Happy to beta test.,open,false
+TKT-20408,C-27346,2026-07-20T12:08:00,chat,en,Refund request,I was charged 20 but my order total was 143. Please investigate and refund the difference.,pending,false
+TKT-20409,C-23731,2026-08-01T15:07:00,phone,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20410,C-32693,2026-07-06T11:21:00,in_app,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20411,C-20252,2026-07-03T18:38:00,chat,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20412,C-34357,2026-07-18T12:41:00,phone,en,Package delayed,My order #60835 was supposed to arrive on 2026-07-20 but it's now 7 days late. Status still says 'in transit'.,solved,false
+TKT-20413,C-44118,2026-07-02T14:08:00,chat,fr,Facture non reçue,J'ai été facturé 372€ alors que le total était de 84€. Merci d'examiner et de rembourser.,solved,true
+TKT-20414,C-47502,2026-07-23T14:07:00,chat,en,Wrong amount charged,I was charged 350 but my order total was 32. Please investigate and refund the difference.,pending,false
+TKT-20415,C-19002,2026-07-08T16:56:00,email,fr,Demande de partenariat,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20416,C-42982,2026-07-24T08:42:00,email,en,Dark mode please,Would love to see this added — it would save our team several hours per week. Happy to beta test.,open,false
+TKT-20417,C-23500,2026-07-10T09:27:00,chat,en,Package delayed,My order #73852 was supposed to arrive on 2026-07-20 but it's now 9 days late. Status still says 'in transit'.,solved,false
+TKT-20418,C-27550,2026-07-06T14:10:00,chat,fr,Demande de partenariat,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20419,C-35764,2026-07-19T16:42:00,in_app,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20420,C-16401,2026-07-24T15:21:00,in_app,en,Delete my account,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20421,C-19043,2026-06-28T14:15:00,chat,en,Wrong amount charged,I was charged 177 but my order total was 21. Please investigate and refund the difference.,pending,false
+TKT-20422,C-13803,2026-07-10T18:37:00,in_app,en,Invoice not received,I was charged 96 but my order total was 116. Please investigate and refund the difference.,solved,false
+TKT-20423,C-47573,2026-07-13T19:50:00,phone,fr,Contact presse,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,solved,false
+TKT-20424,C-42221,2026-07-09T10:50:00,phone,fr,Demande de partenariat,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,solved,false
+TKT-20425,C-19959,2026-07-16T15:14:00,phone,fr,Colis en retard,Ma commande #92171 devait arriver le 2026-07-20 mais a maintenant 5 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20426,C-28903,2026-06-30T16:02:00,phone,fr,Demande de remboursement,J'ai été facturé 51€ alors que le total était de 103€. Merci d'examiner et de rembourser.,solved,false
+TKT-20427,C-30763,2026-08-01T14:40:00,in_app,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20428,C-17897,2026-07-03T18:07:00,chat,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20429,C-40198,2026-06-13T18:20:00,chat,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20430,C-13424,2026-07-24T14:20:00,email,fr,Problème d'abonnement,J'ai été facturé 290€ alors que le total était de 156€. Merci d'examiner et de rembourser.,open,false
+TKT-20431,C-42216,2026-06-05T10:47:00,email,en,Invoice not received,I was charged 259 but my order total was 64. Please investigate and refund the difference.,open,true
+TKT-20432,C-35569,2026-06-30T12:41:00,email,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,pending,false
+TKT-20433,C-40199,2026-07-30T14:22:00,in_app,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20434,C-12621,2026-07-04T11:13:00,chat,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20435,C-43813,2026-07-16T09:05:00,phone,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20436,C-14643,2026-07-28T10:28:00,chat,fr,Problème d'abonnement,J'ai été facturé 168€ alors que le total était de 151€. Merci d'examiner et de rembourser.,open,false
+TKT-20437,C-15312,2026-06-30T16:08:00,in_app,en,Refund request,I was charged 124 but my order total was 62. Please investigate and refund the difference.,solved,false
+TKT-20438,C-21902,2026-08-01T08:04:00,in_app,fr,Retour,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20439,C-22348,2026-07-31T20:51:00,phone,en,Damaged on arrival,My order #68798 was supposed to arrive on 2026-07-20 but it's now 6 days late. Status still says 'in transit'.,open,false
+TKT-20440,C-22830,2026-06-19T17:38:00,phone,en,Dark mode please,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20441,C-31245,2026-06-03T13:33:00,chat,fr,Colis en retard,Ma commande #62675 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20442,C-28792,2026-07-21T18:29:00,chat,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,false
+TKT-20443,C-21727,2026-06-22T19:29:00,email,en,Dark mode please,Would love to see this added — it would save our team several hours per week. Happy to beta test.,open,false
+TKT-20444,C-17808,2026-07-13T16:10:00,email,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20445,C-40861,2026-06-27T13:08:00,email,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,false
+TKT-20446,C-19130,2026-06-28T13:03:00,phone,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20447,C-26692,2026-06-03T12:57:00,chat,fr,Suivi bloqué,Ma commande #97863 devait arriver le 2026-07-20 mais a maintenant 6 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20448,C-46645,2026-07-09T18:57:00,email,fr,Facture non reçue,J'ai été facturé 266€ alors que le total était de 299€. Merci d'examiner et de rembourser.,open,false
+TKT-20449,C-29691,2026-07-08T13:54:00,email,fr,Problème d'abonnement,J'ai été facturé 206€ alors que le total était de 229€. Merci d'examiner et de rembourser.,solved,false
+TKT-20450,C-17214,2026-06-24T11:11:00,in_app,fr,Contact presse,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,solved,false
+TKT-20451,C-15578,2026-06-21T13:45:00,phone,en,SSO integration request,Would love to see this added — it would save our team several hours per week. Happy to beta test.,solved,false
+TKT-20452,C-24997,2026-07-20T09:21:00,chat,en,Bulk edit for inventory,Would love to see this added — it would save our team several hours per week. Happy to beta test.,pending,false
+TKT-20453,C-31165,2026-06-14T15:42:00,chat,en,Package delayed,My order #86019 was supposed to arrive on 2026-07-20 but it's now 4 days late. Status still says 'in transit'.,open,false
+TKT-20454,C-36403,2026-07-18T18:19:00,chat,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,false
+TKT-20455,C-43583,2026-06-28T15:30:00,email,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,pending,false
+TKT-20456,C-15124,2026-06-08T09:18:00,phone,fr,Mode sombre svp,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20457,C-48020,2026-06-12T14:20:00,phone,fr,Colis endommagé,Ma commande #83774 devait arriver le 2026-07-20 mais a maintenant 6 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20458,C-17386,2026-07-30T09:43:00,email,en,Feedback,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20459,C-25322,2026-06-12T20:49:00,in_app,en,Wrong amount charged,I was charged 305 but my order total was 127. Please investigate and refund the difference.,pending,false
+TKT-20460,C-25886,2026-06-14T11:25:00,phone,fr,Facturation erronée,J'ai été facturé 251€ alors que le total était de 273€. Merci d'examiner et de rembourser.,solved,false
+TKT-20461,C-39972,2026-07-20T08:01:00,in_app,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,true
+TKT-20462,C-19560,2026-07-27T12:00:00,chat,en,App crashes on login,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,open,true
+TKT-20463,C-20426,2026-07-05T09:01:00,email,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20464,C-30099,2026-07-16T19:00:00,in_app,fr,Suivi bloqué,Ma commande #54607 devait arriver le 2026-07-20 mais a maintenant 4 jours de retard. Toujours 'en transit'.,pending,false
+TKT-20465,C-35920,2026-07-17T14:44:00,in_app,fr,Édition en masse du stock,Ce serait super d'ajouter ça — ça nous ferait gagner plusieurs heures par semaine. Prêt pour la bêta.,open,false
+TKT-20466,C-30604,2026-07-08T19:56:00,in_app,fr,Mauvais article livré,Ma commande #94807 devait arriver le 2026-07-20 mais a maintenant 2 jours de retard. Toujours 'en transit'.,open,false
+TKT-20467,C-12285,2026-06-14T17:21:00,phone,en,Tracking not updating,My order #54131 was supposed to arrive on 2026-07-20 but it's now 5 days late. Status still says 'in transit'.,solved,false
+TKT-20468,C-37167,2026-06-14T19:30:00,email,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,solved,false
+TKT-20469,C-15138,2026-06-20T11:17:00,in_app,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20470,C-49294,2026-07-07T13:14:00,phone,fr,Colis en retard,Ma commande #57272 devait arriver le 2026-07-20 mais a maintenant 6 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20471,C-39442,2026-06-17T15:08:00,phone,en,Invoice not received,I was charged 163 but my order total was 133. Please investigate and refund the difference.,open,false
+TKT-20472,C-30090,2026-07-07T08:24:00,chat,fr,Paiement échoue sur mobile,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,true
+TKT-20473,C-20176,2026-06-24T18:49:00,chat,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20474,C-33752,2026-07-30T12:20:00,chat,en,Press contact,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20475,C-49259,2026-07-16T19:38:00,phone,en,Merge two accounts,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20476,C-16029,2026-06-07T16:33:00,in_app,en,Add CSV export,Would love to see this added — it would save our team several hours per week. Happy to beta test.,pending,false
+TKT-20477,C-33461,2026-06-26T14:09:00,email,fr,L'application plante,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,false
+TKT-20478,C-23463,2026-06-17T16:38:00,email,en,Feedback,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20479,C-12103,2026-06-10T16:50:00,email,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20480,C-19042,2026-06-15T13:31:00,in_app,en,General question,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,open,false
+TKT-20481,C-28504,2026-06-14T08:29:00,in_app,en,Package delayed,My order #79502 was supposed to arrive on 2026-07-20 but it's now 9 days late. Status still says 'in transit'.,pending,false
+TKT-20482,C-17301,2026-06-18T17:04:00,phone,fr,Problème 2FA,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20483,C-43433,2026-07-25T18:51:00,phone,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,false
+TKT-20484,C-34577,2026-07-08T15:09:00,email,en,Press contact,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20485,C-42523,2026-07-06T15:44:00,in_app,fr,Supprimer mon compte,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20486,C-39008,2026-06-28T10:37:00,in_app,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20487,C-21725,2026-07-22T20:00:00,phone,en,Package delayed,My order #81653 was supposed to arrive on 2026-07-20 but it's now 3 days late. Status still says 'in transit'.,pending,false
+TKT-20488,C-10665,2026-07-04T11:46:00,in_app,fr,Réinitialisation mot de passe,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,pending,false
+TKT-20489,C-41737,2026-07-19T15:20:00,in_app,en,Wrong amount charged,I was charged 122 but my order total was 141. Please investigate and refund the difference.,pending,false
+TKT-20490,C-13966,2026-06-27T14:51:00,phone,en,Payment fails on mobile,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,open,true
+TKT-20491,C-48580,2026-06-07T08:10:00,email,fr,Facturation erronée,J'ai été facturé 176€ alors que le total était de 147€. Merci d'examiner et de rembourser.,solved,false
+TKT-20492,C-23014,2026-07-12T11:20:00,in_app,en,Bulk edit for inventory,Would love to see this added — it would save our team several hours per week. Happy to beta test.,pending,false
+TKT-20493,C-23257,2026-07-17T16:46:00,in_app,en,Refund request,I was charged 304 but my order total was 297. Please investigate and refund the difference.,solved,true
+TKT-20494,C-39399,2026-06-14T09:43:00,email,fr,Problème d'abonnement,J'ai été facturé 114€ alors que le total était de 149€. Merci d'examiner et de rembourser.,open,false
+TKT-20495,C-16544,2026-07-22T15:37:00,email,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,pending,false
+TKT-20496,C-20603,2026-07-09T13:32:00,in_app,fr,Demande de partenariat,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false
+TKT-20497,C-29542,2026-06-25T11:47:00,phone,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,open,false
+TKT-20498,C-38768,2026-07-19T14:06:00,in_app,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,open,true
+TKT-20499,C-37732,2026-07-07T13:35:00,in_app,en,Wrong amount charged,I was charged 95 but my order total was 192. Please investigate and refund the difference.,solved,false
+TKT-20500,C-42468,2026-07-18T18:03:00,phone,en,Refund request,I was charged 211 but my order total was 121. Please investigate and refund the difference.,open,false
+TKT-20501,C-43282,2026-06-09T14:01:00,in_app,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20502,C-45387,2026-06-06T19:12:00,phone,en,Bulk edit for inventory,Would love to see this added — it would save our team several hours per week. Happy to beta test.,open,false
+TKT-20503,C-35448,2026-06-07T16:17:00,phone,fr,Bouton de paiement cassé,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,pending,true
+TKT-20504,C-36319,2026-06-22T11:12:00,email,fr,Fusionner des comptes,Je suis bloqué et l'email de réinitialisation n'arrive jamais. J'ai essayé plusieurs fois. Très frustré.,solved,false
+TKT-20505,C-35056,2026-07-31T14:55:00,chat,en,Invoice not received,I was charged 51 but my order total was 99. Please investigate and refund the difference.,solved,false
+TKT-20506,C-37781,2026-07-25T12:46:00,email,fr,Facture non reçue,J'ai été facturé 398€ alors que le total était de 275€. Merci d'examiner et de rembourser.,open,false
+TKT-20507,C-48951,2026-07-02T17:33:00,phone,fr,Suivi bloqué,Ma commande #78952 devait arriver le 2026-07-20 mais a maintenant 8 jours de retard. Toujours 'en transit'.,solved,false
+TKT-20508,C-34941,2026-07-04T18:23:00,email,en,Package delayed,My order #70540 was supposed to arrive on 2026-07-20 but it's now 6 days late. Status still says 'in transit'.,pending,false
+TKT-20509,C-45324,2026-06-10T12:58:00,email,fr,Problème d'abonnement,J'ai été facturé 222€ alors que le total était de 96€. Merci d'examiner et de rembourser.,solved,false
+TKT-20510,C-25616,2026-07-01T11:45:00,in_app,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20511,C-45902,2026-07-26T11:42:00,chat,en,Cannot reset password,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,solved,false
+TKT-20512,C-36047,2026-06-22T17:33:00,in_app,en,Search returns error,When I click checkout the spinner spins forever and nothing happens on Chrome/Safari. Console shows a 500 error.,solved,true
+TKT-20513,C-34100,2026-07-27T10:36:00,phone,fr,Erreur de recherche,Quand je clique sur payer le loader tourne indéfiniment sur Chrome/Safari. Erreur 500 dans la console.,solved,true
+TKT-20514,C-20720,2026-06-29T17:01:00,in_app,en,Partnership inquiry,Just reaching out — not urgent. Wanted to share some feedback on the recent update.,solved,false
+TKT-20515,C-48446,2026-07-04T12:35:00,email,en,Damaged on arrival,My order #50627 was supposed to arrive on 2026-07-20 but it's now 3 days late. Status still says 'in transit'.,solved,false
+TKT-20516,C-24819,2026-07-17T16:57:00,chat,en,Two-factor auth problem,I'm locked out and the password reset email never arrives. Tried multiple times. Very frustrated.,open,false
+TKT-20517,C-14035,2026-07-28T20:44:00,chat,en,Subscription renewal issue,I was charged 380 but my order total was 54. Please investigate and refund the difference.,solved,false
+TKT-20518,C-32415,2026-06-10T12:59:00,chat,en,Wrong amount charged,I was charged 371 but my order total was 137. Please investigate and refund the difference.,solved,false
+TKT-20519,C-20950,2026-07-27T10:54:00,email,en,Invoice not received,I was charged 386 but my order total was 285. Please investigate and refund the difference.,solved,false
+TKT-20520,C-46954,2026-06-20T15:52:00,in_app,fr,Question générale,Je vous contacte — pas urgent. Je voulais partager un retour sur la dernière mise à jour.,open,false

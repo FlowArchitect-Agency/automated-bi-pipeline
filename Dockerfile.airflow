@@ -1,0 +1,17 @@
+FROM apache/airflow:2.9.2-python3.11
+
+USER root
+# Install OS dependencies for weasyprint (PDF generation)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential \
+    libpango-1.0-0 \
+    libpangoft2-1.0-0 \
+    libffi-dev \
+    libgdk-pixbuf2.0-0 \
+    fontconfig \
+    fonts-liberation \
+    && rm -rf /var/lib/apt/lists/*
+
+USER airflow
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
