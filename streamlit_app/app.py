@@ -11,7 +11,14 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-st.title("DataFlow AI: Automated BI & Enrichment Pipeline")
+# Inject Premium CSS
+try:
+    with open("streamlit_app/style.css") as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+except FileNotFoundError:
+    pass
+
+st.markdown('<h1 class="gradient-text">DataFlow AI: Automated BI & Enrichment Pipeline</h1>', unsafe_allow_html=True)
 st.markdown("### Welcome to the Control Center")
 st.markdown("""
 This platform orchestrates your daily business data, extracting from core systems (CRM, e-commerce, customer support), enriching it with AI, and serving actionable intelligence.
