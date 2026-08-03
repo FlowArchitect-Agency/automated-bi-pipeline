@@ -21,7 +21,7 @@ CREATE SCHEMA IF NOT EXISTS mart;
 
 GRANT USAGE ON SCHEMA raw, mart TO reader;
 GRANT SELECT ON ALL TABLES IN SCHEMA raw, mart TO reader;
-ALTER DEFAULT PRIVILEGES IN SCHEMA raw, mart GRANT SELECT TO reader;
+ALTER DEFAULT PRIVILEGES IN SCHEMA raw, mart GRANT SELECT ON TABLES TO reader;
 
 -- ═══════════════════════════════════════════════════════════════
 -- RAW SCHEMA — landed extracts from the 5 demo data sources
