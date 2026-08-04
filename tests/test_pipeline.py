@@ -32,8 +32,8 @@ def test_daily_revenue_transform():
         'units': [2, 1, 4]
     })
     result = daily_revenue_by_segment(df)
-    # Should have 2 rows (2026-07-01/EU and 2026-07-02/US)
-    assert len(result) == 2
+    # Should have 5 rows (3 segmented + 2 overall daily rollups)
+    assert len(result) == 5
     # Check aggregation for 2026-07-01 EU
     eu_july_1 = result[(result['order_date'] == pd.Timestamp('2026-07-01')) & (result['region'] == 'EU')]
     assert eu_july_1['net_revenue_eur'].iloc[0] == 150.0

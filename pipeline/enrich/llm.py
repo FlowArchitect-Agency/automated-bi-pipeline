@@ -116,7 +116,8 @@ class LLMEnricher(Enricher):
         )
         def _do() -> dict[str, Any]:
             t0 = time.time()
-            resp = requests.post(url, headers=headers, json=payload, timeout=self.timeout)  # type: ignore[arg-type]
+            import typing
+            resp = requests.post(url, headers=headers, json=typing.cast(Any, payload), timeout=self.timeout)
             resp.raise_for_status()
             data = resp.json()
             content = data["choices"][0]["message"]["content"]
@@ -151,7 +152,8 @@ class LLMEnricher(Enricher):
             reraise=True,
         )
         def _do() -> dict[str, Any]:
-            resp = requests.post(url, headers=headers, json=payload, timeout=self.timeout)  # type: ignore[arg-type]
+            import typing
+            resp = requests.post(url, headers=headers, json=typing.cast(Any, payload), timeout=self.timeout)
             resp.raise_for_status()
             data = resp.json()
             content = data["content"][0]["text"]
