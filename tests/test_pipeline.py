@@ -41,21 +41,47 @@ def test_daily_revenue_transform():
 
 
 def test_summarize_reviews():
-    """Test review summarization compatibility with pandas 1.5."""
+    """Test review summarization works on Pandas 1.5.3 (Docker) and 2.x (local).
+
+    Covers: per (product, month) grouping, avg rating, the EN/FR summary split,
+    deterministic top themes, and that no FutureWarning is raised by the
+    groupby+apply path (the historical regression on Pandas 2.x).
+    """
+    import warnings
+
     from pipeline.enrich.mock import MockEnricher
+
     df = pd.DataFrame({
-        'review_id': ['r1', 'r2'],
-        'product_id': ['p1', 'p1'],
-        'created_at': ['2026-07-01', '2026-07-15'],
-        'rating': [5, 4],
-        'title': ['Great', 'Good'],
-        'body': ['Loved it', 'Worked well'],
-        'language': ['en', 'en']
+        'review_id': ['r1', 'r2', 'r3', 'r4'],
+        'product_id': ['p1', 'p1', 'p1', 'p2'],
+        'created_at': ['2026-07-01', '2026-07-15', '2026-08-02', '2026-07-10'],
+        'rating': [5, 4, 2, 5],
+        'title': ['Great', 'Good', 'Crash', 'Nice'],
+        'body': ['Loved it', 'Worked well', 'keeps crashing on load', 'Très bien'],
+        'language': ['en', 'en', 'fr', 'fr'],
     })
     enricher = MockEnricher()
-    result = enricher.summarize_reviews(df)
+    # The summarize path must not emit a Pandas deprecation FutureWarning on
+    # any supported version (it must avoid the include_groups= argument that
+    # is invalid on Pandas 1.5.3 and the deprecated apply-on-grouping-columns
+    # behavior on Pandas 2.x).
+    with warnings.catch_warnings():
+        warnings.simplefilter("error", FutureWarning)
+        result = enricher.summarize_reviews(df)
+
+    assert list(result.columns) == [
+        "product_id", "review_window", "n_reviews", "avg_rating",
+        "summary_en", "summary_fr", "top_themes",
+    ]
+    # p1 spans two months -> 2 rows; p2 one month -> 1 row.
+    assert len(result) == 3
+    p1_jul = result[(result['product_id'] == 'p1') & (result['review_window'] == '2026-07')].iloc[0]
+    assert p1_jul['n_reviews'] == 2
+    assert p1_jul['avg_rating'] == 4.5
+    assert p1_jul['summary_en']  # English bodies summarized
+    # top_themes is always a list
+    assert all(isinstance(t, list) for t in result['top_themes'])
     assert not result.empty
-    assert 'summary_en' in result.columns
 
 
 def test_slack_webhook():

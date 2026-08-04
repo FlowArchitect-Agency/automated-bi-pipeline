@@ -3,7 +3,6 @@ import logging
 from pathlib import Path
 
 import pandas as pd
-from weasyprint import HTML
 
 from pipeline.db import make_engine
 
@@ -96,5 +95,11 @@ def generate_report_pdf(
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     logger.info(f"Generating PDF report at {output_path}")
+    # Imported lazily so that merely *parsing* the DAG (which imports this
+    # module at collection time) does not require the native Pango/Cairo
+    # libraries. WeasyPrint is only needed when a report is actually rendered,
+    # which happens inside the Docker runtime where those libraries exist.
+    from weasyprint import HTML
+
     HTML(string=html_content).write_pdf(target=str(output_path))
     return output_path

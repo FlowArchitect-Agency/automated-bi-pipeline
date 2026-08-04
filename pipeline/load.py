@@ -7,6 +7,8 @@ snapshot pattern.
 """
 from __future__ import annotations
 
+import json
+
 import pandas as pd
 from sqlalchemy import text
 from sqlalchemy.engine import Engine
@@ -90,13 +92,12 @@ def _upsert_mart(
         # For simplicity in this demo, we truncate the table before load.
         # In a real pipeline, we'd use a temp staging table or ON CONFLICT.
         conn.execute(text(f"TRUNCATE TABLE {schema}.{table} CASCADE"))
-    
+
     # psycopg2 cannot adapt lists/dicts automatically. Convert them to JSON strings.
-    import json
     for col in df.columns:
-        if df[col].apply(lambda x: isinstance(x, (list, dict))).any():
+        if df[col].apply(lambda x: isinstance(x, list | dict)).any():
             df[col] = df[col].apply(json.dumps)
-            
+
     df.to_sql(table, engine, schema=schema, if_exists="append", index=False,
               method="multi", chunksize=1000)
     return len(df)

@@ -13,29 +13,61 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
+        # Keep this in sync with the Docker runtime (Dockerfile.airflow).
         python-version: '3.11'
-        
-    - name: Install dependencies
+
+    - name: Install Apache Airflow (constraints-pinned to match Docker)
+      # Airflow is installed with its official constraints file so the dependency
+      # graph is reproducible and matches the Docker image's Airflow 2.9.2
+      # (docker-compose -> Dockerfile.airflow). Doing this *before* the app
+      # install lets the app's own (looser) pins in requirements.txt take
+      # precedence for the shared deps (e.g. pandas 1.5.x).
       run: |
         python -m pip install --upgrade pip
+        pip install "apache-airflow==2.9.2" \
+          --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.9.2/constraints-3.11.txt"
+
+    - name: Install application + dev dependencies
+      # Installing the project itself (-e .) makes the `pipeline` package
+      # importable. Previously CI only ran `pip install -r requirements.txt`,
+      # which installs *dependencies* but not the package, so pytest failed at
+      # collection with `ModuleNotFoundError: No module named 'pipeline'`.
+      run: |
         pip install -r requirements.txt
-        pip install apache-airflow==2.9.3
+        pip install -e .
         pip install pytest pytest-cov
 
     - name: Run Pytest
       run: |
+        python -c "import pandas, sqlalchemy, airflow; print('pandas', pandas.__version__, '| sqlalchemy', sqlalchemy.__version__, '| airflow', airflow.__version__)"
         pytest tests/ -v
-        
+
+    - name: Validate DAG parses
+      # A dedicated, explicit DAG-parse check. The test_dag_validation pytest
+      # case also covers this (and runs because Airflow is installed here), but
+      # surfacing it as its own step makes a DAG import failure immediately
+      # obvious in the CI log instead of buried under the pytest step.
+      run: |
+        python - <<'PY'
+        import os
+        from airflow.models import DagBag
+        dag_folder = os.path.join(os.getcwd(), "airflow", "dags")
+        dag_bag = DagBag(dag_folder=dag_folder, include_examples=False)
+        assert not dag_bag.import_errors, f"DAG import errors: {dag_bag.import_errors}"
+        assert "bi_pipeline" in dag_bag.dags, "bi_pipeline DAG not found"
+        print("DAG 'bi_pipeline' parsed OK:", dag_bag.dags["bi_pipeline"].task_list)
+        PY
+
   validate-docker:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    
+
     - name: Validate Docker Compose config
       run: |
         cp .env.example .env
-        docker compose config
+        docker compose config --quiet

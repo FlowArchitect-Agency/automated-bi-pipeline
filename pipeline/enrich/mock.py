@@ -279,27 +279,45 @@ class MockEnricher(Enricher):
         df = reviews.copy()
         df["created_at"] = pd.to_datetime(df["created_at"])
         df["review_window"] = df["created_at"].dt.to_period("M").astype(str)
-        "text" if "text" in df.columns else (
-            df["title"].fillna("") + ". " + df["body"].fillna(""))
 
-        out = (
-            df.groupby(["product_id", "review_window"])
-            .apply(lambda g: pd.Series({
+        # Derive a per-row text column used for summarization (title + body when
+        # a real text column is absent). This mirrors the rest of the module.
+        if "text" not in df.columns:
+            if {"title", "body"}.issubset(df.columns):
+                df["text"] = df["title"].fillna("") + " " + df["body"].fillna("")
+            elif "body" in df.columns:
+                df["text"] = df["body"].fillna("")
+            else:
+                df["text"] = ""
+
+        # NOTE: We intentionally avoid ``df.groupby(keys).apply(...)`` operating on
+        # the grouping columns. On Pandas >= 2.2 that emits a FutureWarning and on
+        # Pandas 1.5.3 the ``include_groups=`` argument used to silence it does not
+        # exist. Iterating the groups and building rows by hand is fully
+        # deterministic and works identically across the supported range
+        # (1.5.3 .. 2.x) with no deprecation warnings.
+        rows: list[dict[str, object]] = []
+        for (product_id, window), g in df.groupby(["product_id", "review_window"], sort=False):
+            lang = g["language"] if "language" in g.columns else None
+            bodies = g["body"].astype(str) if "body" in g.columns else pd.Series(dtype=str)
+            if lang is not None:
+                en_bodies = bodies[lang.values == "en"]
+                fr_bodies = bodies[lang.values == "fr"]
+            else:
+                en_bodies = fr_bodies = bodies
+            rows.append({
+                "product_id": product_id,
+                "review_window": window,
                 "n_reviews": len(g),
                 "avg_rating": round(float(g["rating"].astype(float).mean()), 2),
-                "summary_en": _extractive_summary(
-                    g.loc[g["language"] == "en", "body"].astype(str)
-                    if "body" in g.columns else pd.Series(dtype=str), "en")
-                    or _extractive_summary(g["body"].astype(str) if "body" in g.columns else pd.Series(dtype=str), "en"),
-                "summary_fr": _extractive_summary(
-                    g.loc[g["language"] == "fr", "body"].astype(str)
-                    if "body" in g.columns else pd.Series(dtype=str), "fr")
-                    or _extractive_summary(g["body"].astype(str) if "body" in g.columns else pd.Series(dtype=str), "fr"),
-                "top_themes": _top_themes(g["body"].astype(str) if "body" in g.columns
-                                          else (g["title"].fillna("") + " " + g["body"].fillna(""))),
-            }))
-            .reset_index()
-        )
+                "summary_en": _extractive_summary(en_bodies, "en") or _extractive_summary(bodies, "en"),
+                "summary_fr": _extractive_summary(fr_bodies, "fr") or _extractive_summary(bodies, "fr"),
+                "top_themes": _top_themes(g["text"].astype(str)),
+            })
+
+        out = pd.DataFrame(rows, columns=[
+            "product_id", "review_window", "n_reviews", "avg_rating",
+            "summary_en", "summary_fr", "top_themes"])
         out["top_themes"] = out["top_themes"].apply(lambda x: x if isinstance(x, list) else [])
         self.stats.rows_enriched += len(out)
         return out

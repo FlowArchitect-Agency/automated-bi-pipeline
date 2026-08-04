@@ -18,6 +18,9 @@ logs/
 airflow/logs/
 airflow.db
 
+# Local run-tracking scratch file (zero-byte, tool-generated). Not source.
+runs.json
+
 # ─────────────────────────────────────────────────────────────
 # Python
 # ─────────────────────────────────────────────────────────────
