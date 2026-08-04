@@ -11,6 +11,7 @@ keywords = ["airflow", "etl", "llm", "rag", "bi", "data-engineering"]
 # Runtime dependencies are pinned in requirements.txt for reproducible Docker builds.
 dependencies = [
     "pandas>=1.5,<2",
+    "numpy<2",
     "psycopg2-binary>=2.9,<3",
     "SQLAlchemy>=1.4,<2.0",
     "weasyprint>=62,<63",
