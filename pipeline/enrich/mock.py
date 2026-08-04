@@ -130,7 +130,7 @@ def _top_themes(texts: pd.Series, top_n: int = 5) -> list[dict[str, object]]:
         for theme, kws in _THEME_KEYWORDS.items():
             if any(kw in t for kw in kws):
                 counts[theme] += 1
-    total = max(1, len(texts))
+    max(1, len(texts))
     return [{"theme": th, "weight": int(n)} for th, n in counts.most_common(top_n)]
 
 
@@ -142,7 +142,7 @@ def _extractive_summary(texts: pd.Series, lang: str, max_sentences: int = 2) -> 
     dual-mode design).
     """
     if texts.empty:
-        return "" if lang == "en" else ""
+        return ""
     # take whole-body strings, pick the most representative by rating proximity
     bodies = texts.dropna().astype(str).tolist()
     if not bodies:
@@ -245,10 +245,7 @@ _GLOSSARY_FR_EN = {v: k for k, v in _GLOSSARY_EN_FR.items()}
 
 def _translate_lead_note(notes: str, target_lang: str) -> str:
     """Word-replacement 'translation' — explicitly a mock, not real MT."""
-    if target_lang == "fr":
-        gloss = _GLOSSARY_EN_FR
-    else:
-        gloss = _GLOSSARY_FR_EN
+    gloss = _GLOSSARY_EN_FR if target_lang == "fr" else _GLOSSARY_FR_EN
     out = notes
     # longest-first to avoid partial overlaps
     for src in sorted(gloss, key=len, reverse=True):
@@ -266,7 +263,7 @@ class MockEnricher(Enricher):
                                   confidence=[], detected_language=[])
         text_col = _text_series(tickets)
         rows = []
-        for tid, t in zip(tickets["ticket_id"], text_col):
+        for tid, t in zip(tickets["ticket_id"], text_col, strict=False):
             cat, sent, urg, conf = _classify_one(str(t))
             rows.append((tid, cat, sent, urg, conf, _detect_language(str(t))))
         out = pd.DataFrame(rows, columns=[
@@ -282,7 +279,7 @@ class MockEnricher(Enricher):
         df = reviews.copy()
         df["created_at"] = pd.to_datetime(df["created_at"])
         df["review_window"] = df["created_at"].dt.to_period("M").astype(str)
-        text_col = "text" if "text" in df.columns else (
+        "text" if "text" in df.columns else (
             df["title"].fillna("") + ". " + df["body"].fillna(""))
 
         out = (

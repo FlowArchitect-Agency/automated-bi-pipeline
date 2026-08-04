@@ -7,8 +7,6 @@ snapshot pattern.
 """
 from __future__ import annotations
 
-from typing import Iterable
-
 import pandas as pd
 from sqlalchemy import text
 from sqlalchemy.engine import Engine
@@ -84,7 +82,7 @@ def _upsert_mart(
     A simple delete-then-insert upsert. Adequate for the demo's volumes;
     a production system would use INSERT ... ON CONFLICT for atomicity.
     """
-    pks = [pk] if isinstance(pk, str) else list(pk)
+    [pk] if isinstance(pk, str) else list(pk)
     if df.empty:
         return 0
 

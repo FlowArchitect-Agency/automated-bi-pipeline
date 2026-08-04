@@ -33,7 +33,7 @@ def get_enricher(settings: Settings | None = None) -> Enricher:
         enricher = LLMEnricher(s)
         log.info("Enrichment mode: LLM (provider=%s, model=%s)", s.llm_provider, enricher.model)
         return enricher
-    except Exception as exc:  # noqa: BLE001 — we deliberately catch broadly here
+    except Exception as exc:
         log.warning(
             "ENRICHMENT_MODE=llm but LLM unavailable (%s). "
             "Falling back to MOCK enricher so the run still completes.", exc

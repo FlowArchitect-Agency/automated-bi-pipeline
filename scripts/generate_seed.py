@@ -10,7 +10,6 @@ Writes to: data/seed/*.csv
 from __future__ import annotations
 
 import csv
-import math
 import random
 from datetime import datetime, timedelta
 from pathlib import Path

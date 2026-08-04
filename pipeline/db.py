@@ -5,13 +5,13 @@ pooling and echo settings. The schema bootstrap applies `sql/01_schema.sql`.
 """
 from __future__ import annotations
 
+from collections.abc import Iterator
 from contextlib import contextmanager
-from typing import Iterator
 
 from sqlalchemy import create_engine, text
 from sqlalchemy.engine import Engine
 
-from .config import Settings, get_settings
+from .config import get_settings
 
 
 def make_engine(dsn: str | None = None, *, echo: bool = False) -> Engine:

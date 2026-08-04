@@ -4,7 +4,7 @@ import uuid
 from datetime import datetime, timedelta
 
 import pandas as pd
-from airflow import DAG
+from airflow import DAG  # type: ignore[attr-defined]
 from airflow.operators.python import PythonOperator
 
 from pipeline.config import get_settings

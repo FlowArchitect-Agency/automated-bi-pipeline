@@ -1,9 +1,9 @@
 """Extract stage — simulate loading 5 disparate sources.
 
-In this portfolio demo, each source is extracted from local CSV files to 
-simulate fetching from live REST APIs (e.g., Salesforce, Shopify, Zendesk). 
-The same functions would wrap a real `requests.get()` API call in production; 
-only the loader body changes. Returns a dataclass bundle so downstream stages 
+In this portfolio demo, each source is extracted from local CSV files to
+simulate fetching from live REST APIs (e.g., Salesforce, Shopify, Zendesk).
+The same functions would wrap a real `requests.get()` API call in production;
+only the loader body changes. Returns a dataclass bundle so downstream stages
 get a stable, typed contract.
 """
 from __future__ import annotations

@@ -1,7 +1,7 @@
-import streamlit as st
 import pandas as pd
 import plotly.express as px
-from sqlalchemy import text
+import streamlit as st
+
 from pipeline.config import get_settings
 from pipeline.db import make_engine
 
@@ -70,7 +70,7 @@ st.divider()
 # Layout
 tab1, tab2, tab3 = st.tabs([
     "E-commerce & Anomalies" if not is_fr else "E-commerce & Anomalies (FR)",
-    "Customer Support AI" if not is_fr else "Support Client IA", 
+    "Customer Support AI" if not is_fr else "Support Client IA",
     "CRM Lead Scoring" if not is_fr else "Scoring CRM"
 ])
 
@@ -80,21 +80,21 @@ COLOR_SCALE = ["#00f2fe", "#4facfe", "#f093fb", "#f5576c"]
 
 with tab1:
     st.header("Revenue & Anomaly Detection" if not is_fr else "Revenus et Détection d'Anomalies")
-    
+
     col1, col2 = st.columns([2, 1])
-    
+
     with col1:
         # Group orders by date and region
         daily_rev = orders.groupby(['order_date', 'region'])['net_revenue_eur'].sum().reset_index()
         fig_rev = px.line(
-            daily_rev, x='order_date', y='net_revenue_eur', color='region', 
+            daily_rev, x='order_date', y='net_revenue_eur', color='region',
             title="Daily Net Revenue by Region" if not is_fr else "Revenu Net Quotidien par Région",
             template=PLOTLY_THEME,
             color_discrete_sequence=COLOR_SCALE
         )
         fig_rev.update_layout(paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
         st.plotly_chart(fig_rev, use_container_width=True)
-        
+
     with col2:
         st.subheader("Detected Anomalies" if not is_fr else "Anomalies Détectées")
         if not anomalies.empty:
@@ -115,8 +115,8 @@ with tab2:
         col1, col2 = st.columns(2)
         with col1:
             fig_cat = px.pie(
-                tickets, names='category', 
-                title="Tickets by Category" if not is_fr else "Tickets par Catégorie", 
+                tickets, names='category',
+                title="Tickets by Category" if not is_fr else "Tickets par Catégorie",
                 hole=0.4,
                 template=PLOTLY_THEME,
                 color_discrete_sequence=COLOR_SCALE
@@ -125,7 +125,7 @@ with tab2:
             st.plotly_chart(fig_cat, use_container_width=True)
         with col2:
             fig_sent = px.histogram(
-                tickets, x='sentiment', color='urgency', barmode='group', 
+                tickets, x='sentiment', color='urgency', barmode='group',
                 title="Sentiment & Urgency" if not is_fr else "Sentiment & Urgence",
                 template=PLOTLY_THEME,
                 color_discrete_sequence=COLOR_SCALE

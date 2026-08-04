@@ -11,7 +11,7 @@ Design goals:
       ``fell_back_to_mock`` so it's never silently degraded.
     * No secrets in logs: only the provider name and model are logged.
 
-Cost accounting is a coarse estimate (input+output tokens × published rate)
+Cost accounting is a coarse estimate (input+output tokens x published rate)
 used only for display. It never gates execution.
 """
 from __future__ import annotations
@@ -37,12 +37,6 @@ from .mock import (
     MockEnricher,
     _classify_one,
     _detect_language,
-    _extractive_summary,
-    _infer_size_band,
-    _intent_signals,
-    _lead_score,
-    _top_themes,
-    _translate_lead_note,
 )
 
 log = logging.getLogger(__name__)
@@ -122,7 +116,7 @@ class LLMEnricher(Enricher):
         )
         def _do() -> dict[str, Any]:
             t0 = time.time()
-            resp = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
+            resp = requests.post(url, headers=headers, json=payload, timeout=self.timeout)  # type: ignore[arg-type]
             resp.raise_for_status()
             data = resp.json()
             content = data["choices"][0]["message"]["content"]
@@ -157,7 +151,7 @@ class LLMEnricher(Enricher):
             reraise=True,
         )
         def _do() -> dict[str, Any]:
-            resp = requests.post(url, headers=headers, json=payload, timeout=self.timeout)
+            resp = requests.post(url, headers=headers, json=payload, timeout=self.timeout)  # type: ignore[arg-type]
             resp.raise_for_status()
             data = resp.json()
             content = data["content"][0]["text"]
@@ -194,7 +188,7 @@ class LLMEnricher(Enricher):
             chunk = tickets.iloc[start:start + batch_size]
             texts = list(text_col.iloc[start:start + batch_size].astype(str))
             items = [{"id": str(tid), "text": t[:500]}
-                     for tid, t in zip(chunk["ticket_id"], texts)]
+                     for tid, t in zip(chunk["ticket_id"], texts, strict=False)]
             system = (
                 "You are a multilingual support-ticket classifier. "
                 "Return STRICT JSON: {\"results\":[{\"id\":str,\"category\":"
@@ -221,7 +215,7 @@ class LLMEnricher(Enricher):
                 })
         # Fill any ticket the model skipped, deterministically.
         seen = {r["ticket_id"] for r in out_rows}
-        for tid, t in zip(tickets["ticket_id"], text_col.astype(str)):
+        for tid, t in zip(tickets["ticket_id"], text_col.astype(str), strict=False):
             if tid not in seen:
                 cat, sent, urg, conf = _classify_one(t)
                 out_rows.append({"ticket_id": tid, "category": cat, "sentiment": sent,
