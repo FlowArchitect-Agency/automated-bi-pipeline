@@ -4,6 +4,7 @@ import streamlit as st
 
 from pipeline.config import get_settings
 from pipeline.db import make_engine
+from sqlalchemy import text
 
 st.set_page_config(page_title="DataFlow AI | Business Insights", page_icon="📈", layout="wide")
 
@@ -33,10 +34,10 @@ is_fr = lang == "Français"
 def load_data():
     with engine.connect() as conn:
         try:
-            tickets = pd.read_sql("SELECT * FROM mart.ticket_classifications", conn)
-            anomalies = pd.read_sql("SELECT * FROM mart.revenue_anomalies", conn)
-            leads = pd.read_sql("SELECT * FROM mart.lead_enrichments", conn)
-            orders = pd.read_sql("SELECT * FROM raw.orders", conn)
+            tickets = pd.read_sql(text("SELECT * FROM mart.ticket_classifications"), conn)
+            anomalies = pd.read_sql(text("SELECT * FROM mart.revenue_anomalies"), conn)
+            leads = pd.read_sql(text("SELECT * FROM mart.lead_enrichments"), conn)
+            orders = pd.read_sql(text("SELECT * FROM raw.orders"), conn)
             return tickets, anomalies, leads, orders
         except Exception as e:
             st.error(f"Database error: {e}")
