@@ -59,7 +59,7 @@ jobs:
         dag_bag = DagBag(dag_folder=dag_folder, include_examples=False)
         assert not dag_bag.import_errors, f"DAG import errors: {dag_bag.import_errors}"
         assert "bi_pipeline" in dag_bag.dags, "bi_pipeline DAG not found"
-        print("DAG 'bi_pipeline' parsed OK:", dag_bag.dags["bi_pipeline"].task_list)
+        print("DAG 'bi_pipeline' parsed OK:", list(dag_bag.dags["bi_pipeline"].task_dict.keys()))
         PY
 
   validate-docker:
