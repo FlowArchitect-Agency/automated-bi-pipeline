@@ -297,7 +297,7 @@ class MockEnricher(Enricher):
                     or _extractive_summary(g["body"].astype(str) if "body" in g.columns else pd.Series(dtype=str), "fr"),
                 "top_themes": _top_themes(g["body"].astype(str) if "body" in g.columns
                                           else (g["title"].fillna("") + " " + g["body"].fillna(""))),
-            }), include_groups=False)
+            }))
             .reset_index()
         )
         out["top_themes"] = out["top_themes"].apply(lambda x: x if isinstance(x, list) else [])

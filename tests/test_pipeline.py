@@ -35,9 +35,27 @@ def test_daily_revenue_transform():
     # Should have 5 rows (3 segmented + 2 overall daily rollups)
     assert len(result) == 5
     # Check aggregation for 2026-07-01 EU
-    eu_july_1 = result[(result['order_date'] == pd.Timestamp('2026-07-01')) & (result['region'] == 'EU')]
+    eu_july_1 = result[(result['order_date'] == pd.Timestamp('2026-07-01').date()) & (result['region'] == 'EU')]
     assert eu_july_1['net_revenue_eur'].iloc[0] == 150.0
     assert eu_july_1['units'].iloc[0] == 3
+
+
+def test_summarize_reviews():
+    """Test review summarization compatibility with pandas 1.5."""
+    from pipeline.enrich.mock import MockEnricher
+    df = pd.DataFrame({
+        'review_id': ['r1', 'r2'],
+        'product_id': ['p1', 'p1'],
+        'created_at': ['2026-07-01', '2026-07-15'],
+        'rating': [5, 4],
+        'title': ['Great', 'Good'],
+        'body': ['Loved it', 'Worked well'],
+        'language': ['en', 'en']
+    })
+    enricher = MockEnricher()
+    result = enricher.summarize_reviews(df)
+    assert not result.empty
+    assert 'summary_en' in result.columns
 
 
 def test_slack_webhook():
