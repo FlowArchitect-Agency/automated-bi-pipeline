@@ -34,10 +34,10 @@ def test_daily_revenue_transform():
     result = daily_revenue_by_segment(df)
     # Should have 5 rows (3 segmented + 2 overall daily rollups)
     assert len(result) == 5
-    # Check aggregation for 2026-07-01 EU
+    # Check aggregation for 2026-07-01 EU (has web and mobile channels)
     eu_july_1 = result[(result['order_date'] == pd.Timestamp('2026-07-01').date()) & (result['region'] == 'EU')]
-    assert eu_july_1['net_revenue_eur'].iloc[0] == 150.0
-    assert eu_july_1['units'].iloc[0] == 3
+    assert eu_july_1['net_revenue_eur'].sum() == 150.0
+    assert eu_july_1['units'].sum() == 3
 
 
 def test_summarize_reviews():
